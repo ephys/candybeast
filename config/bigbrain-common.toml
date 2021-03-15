@@ -1,0 +1,16 @@
+"Have pigs give birth to multiple babies?" = true
+"Have pillagers run while reloading?" = true
+"Have pillagers go closer to you if they have a multishot crossbow?" = true
+"Have polar bears attack fish?" = true
+"Have the explosion spawned while using the Bang! enchant destroy blocks?" = false
+"Have brutes spawn with bucklers?" = true
+"Have all mobs attack villagers?" = false
+#Any mob id in this list will not attack villagers if the config option for that is on.
+"Mob BlackList" = []
+#Range: > -2147483648
+"How long should the buckler's cooldown be in ticks?" = 240
+#Range: > -2147483648
+"How long should the buckler's charge move be in ticks?" = 15
+#Range: > -2147483648
+"How long should the buckler's charge move if you have the turning enchant be in ticks?" = 30
+

@@ -1,0 +1,31 @@
+
+#Book Enchantabilities
+[books]
+	#Enchantability for the Netherite Book
+	#Range: > 1
+	netheriteBookEnchantability = 150
+	#Enchantability for the Iron Book
+	#Range: > 1
+	ironBookEnchantability = 20
+	#Enchantability for the Golden Book
+	#Range: > 1
+	goldenBookEnchantability = 50
+	#Enchantability for the Diamond Book
+	#Range: > 1
+	diamondBookEnchantability = 100
+
+#Block Enchanting Power
+[blocks]
+	#Enchantment Power for the Gold Bookshelf
+	#Range: 1.0 ~ 2.147483647E9
+	goldBookshelfPower = 3.0
+	#Enchantment Power for the Iron Bookshelf
+	#Range: 1.0 ~ 2.147483647E9
+	ironBookshelfPower = 2.0
+	#Enchantment Power for the Diamond Bookshelf
+	#Range: 1.0 ~ 2.147483647E9
+	diamondBookshelfPower = 4.0
+	#Enchantment Power for the Netherite Bookshelf
+	#Range: 1.0 ~ 2.147483647E9
+	netheriteBookshelfPower = 5.0
+

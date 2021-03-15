@@ -1,0 +1,9 @@
+
+#Common config for BannerAdditions. MAKE SURE BOTH THE SERVER AND THE CLIENT HAVE THE SAME CONFIG.
+[banneradditions]
+	#Disable custom banner loading. Could break banners. Requires world restart.
+	safeMode = false
+	#The maximum number of patterns on a banner (without commands). This value is six in vanilla Minecraft. May require game restart.
+	#Range: 6 ~ 12
+	maxPatternCount = 12
+

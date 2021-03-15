@@ -1,0 +1,9 @@
+#configure how much armor does against damage. Valid values are 'armor', 'damage', and 'toughness'
+"damage reduction formula" = "damage*10/(10+armor)"
+#configure sudden death protection for armor toughness. Valid values are 'armor', 'damage', and 'toughness'. Change to 1 to disable
+"armor toughness damage reduction formula" = "damage-(damage>40/(toughness+1))(damage-40/(toughness+1))/2"
+#configure the efficiency of protection enchantments. Valid values are 'enchant' and 'damage'
+"enchantment damage reduction formula" = "damage*10/(10+enchant)"
+#configure how armor degrades. Valid values are 'remaining' and 'max'
+"armor degradation formula" = "remaining/max"
+
