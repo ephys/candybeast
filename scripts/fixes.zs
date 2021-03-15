@@ -15,6 +15,8 @@ craftingTable.addShaped('candy_obsponge', <item:simplesponge:sponge>, [
 
 craftingTable.removeRecipe(<item:botania:tornado_rod>);
 
+craftingTable.removeRecipe(<item:betterhorsearmor:netherite_horse_armor>);
+
 // Disable waystones
 
 craftingTable.removeRecipe(<item:waystones:waystone>);

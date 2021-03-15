@@ -9,7 +9,7 @@
 	#toggle the copper ore generation, useful if you use other mods that spawn copper.
 	useCopperGeneration = true
 	#toggle the cave biome generation, not sure why would you want to do such thing but ok...
-	useCaveBiomes = true
+	useCaveBiomes = false
 	#define the size for the cave biomes to be generated, by default it is 4.
 	#Range: 1 ~ 10
 	caveBiomeSize = 1
