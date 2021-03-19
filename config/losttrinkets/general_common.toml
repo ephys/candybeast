@@ -8,43 +8,7 @@ unlockCooldown = 2400
 blackList = []
 #List of trinkets that can't be unlocked randomly eg: ["losttrinkets:piggy", "losttrinkets:magical_feathers"]
 #The trinkets listed in here will not be removed from players that already unlocked them.
-nonRandom = [
-"losttrinkets:broken_totem",
-"losttrinkets:mad_aura",
-"losttrinkets:magical_feathers",
-"losttrinkets:magical_herbs",
-"losttrinkets:ruby_heart",
-"losttrinkets:glory_shards",
-"losttrinkets:mirror_shard",
-"losttrinkets:dark_egg",
-"losttrinkets:coffee_bean",
-"losttrinkets:tea_leaf",
-"losttrinkets:ember",
-"losttrinkets:drop_spindle",
-"losttrinkets:dark_dagger",
-"losttrinkets:dragon_breath",
-"losttrinkets:fire_mind",
-"losttrinkets:serpent_tooth",
-"losttrinkets:wither_nail",
-"losttrinkets:golden_melon",
-"losttrinkets:book_o_enchanting",
-"losttrinkets:tha_bat",
-"losttrinkets:tha_wizard",
-"losttrinkets:treble_hooks",
-"losttrinkets:blaze_heart",
-"losttrinkets:glass_shard",
-"losttrinkets:tha_spider",
-"losttrinkets:empty_amulet",
-"losttrinkets:ice_shard",
-"losttrinkets:turtle_shell",
-"losttrinkets:tha_cloud",
-"losttrinkets:rock_candy",
-"losttrinkets:magneto",
-"losttrinkets:creepo",
-"losttrinkets:horseshoe",
-"losttrinkets:mossy_belt",
-"losttrinkets:mossy_ring"
-]
+nonRandom = ["losttrinkets:broken_totem", "losttrinkets:mad_aura", "losttrinkets:magical_feathers", "losttrinkets:magical_herbs", "losttrinkets:ruby_heart", "losttrinkets:glory_shards", "losttrinkets:mirror_shard", "losttrinkets:dark_egg", "losttrinkets:coffee_bean", "losttrinkets:tea_leaf", "losttrinkets:ember", "losttrinkets:drop_spindle", "losttrinkets:dark_dagger", "losttrinkets:dragon_breath", "losttrinkets:fire_mind", "losttrinkets:serpent_tooth", "losttrinkets:wither_nail", "losttrinkets:golden_melon", "losttrinkets:book_o_enchanting", "losttrinkets:tha_bat", "losttrinkets:tha_wizard", "losttrinkets:treble_hooks", "losttrinkets:blaze_heart", "losttrinkets:glass_shard", "losttrinkets:tha_spider", "losttrinkets:empty_amulet", "losttrinkets:ice_shard", "losttrinkets:turtle_shell", "losttrinkets:tha_cloud", "losttrinkets:rock_candy", "losttrinkets:magneto", "losttrinkets:creepo", "losttrinkets:horseshoe", "losttrinkets:mossy_belt", "losttrinkets:mossy_ring"]
 
 [Trinket_Slots]
 	#Amount of Xp levels added to the next unlocking cost.

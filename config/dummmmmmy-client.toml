@@ -14,3 +14,17 @@
 		#Range: 0 ~ 2
 		texture = 0
 
+		[visuals.skins.damage_number_colors]
+			#hex color for various damage sources
+			genetic = "0xffffff"
+			crit = "0xff0000"
+			dragon_breath = "0xFF00FF"
+			wither = "0x666666"
+			explosion = "0xFFCC33"
+			indirect_magic = "0x990033"
+			magic = "0x3399FF"
+			trident = "0x00FFCC"
+			fire = "0xFF9900"
+			lightning = "0xFFFF00"
+			cactus = "0x006600"
+
