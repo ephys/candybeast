@@ -4,7 +4,7 @@
 
 	[client.tweaks]
 		#This option will let you climb ladders automatically by just looking upwards, rather than requiring a key to be held down.
-		autoClimbLadder = true
+		autoClimbLadder = false
 		#This option disables the shifting of the inventory to the right when potion effects are active.
 		disablePotionShift = true
 		#This prevents the last torch in the offhand from being placed.
