@@ -31,3 +31,10 @@ mods.jei.JEI.hideItem(<item:waystones:warp_stone>);
 // thermal:machine/furnace/furnace_rotten_flesh_to_leather
 
 <recipetype:thermal:furnace>.removeRecipe(<item:minecraft:leather>);
+
+craftingTable.removeByName("dwmh:saddle");
+craftingTable.removeRecipe(<item:wstweaks:lava_blade>);
+craftingTable.removeRecipe(<item:wstweaks:blaze_blade>);
+
+mods.jei.JEI.hideItem(<item:wstweaks:lava_blade>);
+mods.jei.JEI.hideItem(<item:wstweaks:blaze_blade>);
