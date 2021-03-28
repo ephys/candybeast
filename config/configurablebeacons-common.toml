@@ -2,13 +2,13 @@
 [beacon]
 	#How many blocks are added to the range per level?
 	#Range: > -2147483648
-	range_step = 10
+	range_step = 20
 	#How the range is altered vertically. Java = Vanilla Java Behavior. Bedrock = Vanilla Bedrock behavior. FullHeight = expand vertical range to maximum
 	#Allowed Values: Java, Bedrock, FullHeight
 	vertical_range = "FullHeight"
 	#What is the base range?
 	#Range: > -2147483648
-	base_range = 10
+	base_range = 20
 	#Spawn particles around the player when an effect is active
 	show_particles = true
 
