@@ -67,4 +67,5 @@
 		pulley_block = true
 		fodder = true
 		bomb = true
+		magma_cream_block = true
 

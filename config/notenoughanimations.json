@@ -1,0 +1,10 @@
+{
+  "configVersion": 1,
+  "animationSmoothingSpeed": 20.0,
+  "holdingItems": [
+    "minecraft:clock",
+    "minecraft:compass",
+    "minecraft:torch",
+    "minecraft:lantern"
+  ]
+}
