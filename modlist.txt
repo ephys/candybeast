@@ -124,7 +124,6 @@ morewaterlogging-1.4.jar
 nbtperipheral-1.0.jar
 nicephore-1.16.x-1.3.4.jar
 nolavabuild-1.16.3-1.0.1.jar
-notenoughanimations-1.2.2.jar
 Notes-1.16.5-1.2.3.jar
 OptiFine_1.16.5_HD_U_G7.jar
 overloadedarmorbar-5.1.0.jar
@@ -169,7 +168,6 @@ ToolBelt-1.16.3-1.15.2.jar
 Torchslabmod-1.16.4_v1.6.18.jar
 totaldarkness-1.2-1.16.3.jar
 towers_of_the_wild-1.16.4-2.0.1.jar
-TRansliterationLib-1.0.4.jar
 unbreakables-1.16.2-1.0.0.jar
 underwaterenchanting_1.16.5-1.3.jar
 upgrade_aquatic-1.16.5-3.1.0.jar
