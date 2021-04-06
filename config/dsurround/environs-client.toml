@@ -52,7 +52,7 @@
 	#Show morning fog that eventually burns off
 	"Morning Fog" = true
 	#Increase fog at bedrock layers
-	"Bedrock Fog" = true
+	"Bedrock Fog" = false
 	#Increase fog based on the strength of rain
 	"Weather Fog" = true
 	#Chance morning fog will occurs expressed as 1 in N
