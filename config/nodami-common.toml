@@ -1,0 +1,34 @@
+
+#Core functionality settings
+[core]
+	#How many ticks of i-frames does an entity get when damaged, from 0 (default), to 2^31-1 (nothing can take damage)
+	#Range: > 0
+	iFrameInterval = 0
+	#Are players excluded from this mod (if true, players will always get 10 ticks of i-frames on being damaged
+	excludePlayers = false
+	#Are players excluded from this mod (if true, players will always get 10 ticks of i-frames on being damaged
+	excludeAllMobs = false
+
+#Threshold values for certain features
+[threshold]
+	#How weak a player's attack can be before it gets nullified, from 0 (0%, cancels multiple attacks on the same tick) to 1 (100%, players cannot attack), or -0.1 (disables this feature)
+	#Range: -0.1 ~ 1.0
+	attackCancelThreshold = 0.1
+	#How weak a player's attack can be before the knockback gets nullified, from 0 (0%, cancels multiple attacks on the same tick) to 1 (100%, no knockback), or -0.1 (disables this feature)
+	#Range: -0.1 ~ 1.0
+	knockbackCancelThreshold = 0.75
+
+#Exclusion lists for certain features
+[exclusions]
+	#List of entities that need to give i-frames on attacking
+	attackExcludedEntities = ["minecraft:slime", "tconstruct:blueslime", "thaumcraft:thaumslime"]
+	#List of entities that need to receive i-frames on receiving attacks or relies on i-frames
+	dmgReceiveExcludedEntities = []
+	#List of damage sources that need to give i-frames on doing damage (ex: lava)
+	damageSrcWhitelist = ["inFire", "lava", "cactus", "lightningBolt", "inWall", "hotFloor", "outOfWorld"]
+
+#Miscellaneous stuff
+[misc]
+	#If true, turns on feature which sends a message when a player receives damage, containing information such as the name of the source and the quantity. Use this to find the name of the source you need to whitelist, or the id of the mob you want to exclude.
+	debugMode = false
+

@@ -1,0 +1,11 @@
+
+#No comment
+["World Generation Settings"]
+	#define the size for the cave biomes to be generated, by default it is 4.
+	#Range: 1 ~ 10
+	caveBiomeSize = 1
+	#toggle the generation of cave biomes, not sure why would you want to disable it, but up to you
+	caveBiomeSpawning = true
+	#toggle the generation of noise caves, the noise caves are the huge caves.
+	noiseCaveSpawning = true
+

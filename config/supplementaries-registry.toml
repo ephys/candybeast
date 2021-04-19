@@ -24,7 +24,6 @@
 		candle_holder = true
 		speaker_block = true
 		sack = true
-		#WIP
 		flag = false
 		#WIP
 		laser_block = false
@@ -68,4 +67,5 @@
 		fodder = true
 		bomb = true
 		magma_cream_block = true
+		crimson_lantern = true
 

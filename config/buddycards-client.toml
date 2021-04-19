@@ -1,9 +1,6 @@
 
 [lootTables]
 	#
-	#Allow natural generation of packs in loot chests, default is true
-	lootChestPacks = true
-	#
 	#Allow packs to be obtained through Piglin bartering, default is true
 	piglinBartering = true
 
@@ -116,13 +113,17 @@
 	#Range: 0.0 ~ 10.0
 	grade5Multiplier = 10.0
 	#
-	#Multiplier for challenge points from fd set, 0-10, default is 1
+	#Multiplier for challenge points from aquaculture set, 0-10, default is 0.9
 	#Range: 0.0 ~ 10.0
 	set6Multiplier = 1.0
 	#
 	#Multiplier for challenge points with grade A, 0-10, default is 2.5
 	#Range: 0.0 ~ 10.0
 	grade4Multiplier = 2.5
+	#
+	#Multiplier for challenge points from fd set, 0-10, default is 1
+	#Range: 0.0 ~ 10.0
+	set7Multiplier = 1.0
 
 [misc]
 	#
