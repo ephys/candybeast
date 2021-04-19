@@ -110,7 +110,7 @@
 [The_End]
 	#
 	#Does BYG control The End?
-	ControlEnd = true
+	ControlEnd = false
 	#
 	#End Biome Size
 	#Default: 3
