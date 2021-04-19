@@ -13,7 +13,7 @@ multi_threaded_nether_portal_searching = true
 #Loose Serve Side Anti Hack Movement Check
 loose_movement_check = false
 #Enable Alternate Dimensions
-enable_alternate_dimensions = true
+enable_alternate_dimensions = false
 #Nether Portal Mode
 #Allowed Values: normal, vanilla, adaptive, disabled
 nether_portal_mode = "normal"
