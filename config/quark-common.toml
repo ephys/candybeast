@@ -1095,10 +1095,10 @@
 				"Cluster Count" = 10
 
 	[world.speleothems]
-		"Tries Per Chunk" = 60
-		"Speleothems Per Chunk" = 12
-		"Tries Per Chunk In Nether" = 4
-		"Speleothems Per Chunk In Nether" = 12
+		"Tries Per Chunk" = 0
+		"Speleothems Per Chunk" = 0
+		"Tries Per Chunk In Nether" = 0
+		"Speleothems Per Chunk In Nether" = 0
 		"Max Ylevel" = 55
 
 		[world.speleothems.dimensions]
