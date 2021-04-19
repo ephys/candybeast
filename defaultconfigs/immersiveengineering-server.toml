@@ -80,7 +80,7 @@
 [machines]
 	#The base Flux that is output by the dynamo. This will be modified by the rotation modifier of the attached water- or windmill
 	#Range: 0.0 ~ 2.147483647E9
-	dynamo_output = 3.0
+	dynamo_output = 6.0
 	#Output modifier for the energy created by the Thermoelectric Generator
 	#Range: 0.0 ~ 2.147483647E9
 	thermoelectric_output = 1.0
@@ -310,8 +310,15 @@
 		#The maximum amount of damage Graphite Electrodes can take. While the furnace is working, electrodes sustain 1 damage per tick, so this is effectively the lifetime in ticks. The default value of 96000 makes them last for 8 consecutive ingame days
 		#Range: > 1
 		electrodeDamage = 96000
-		#Set this to false to disable the Arc Furnace's recycling of armors and tools
-		recycle = true
+		#The recycling functionality of the arc furnace is no longer controlled by a config option.
+		#Like all IE recipes, this is now controlled via a datapack, using the recipe file:
+		#immersiveengineering/recipes/arc_recycling_list.json
+		#To disable recycling, add that file to your datapack and fill it with the following content:
+		#{
+		#  "type": "immersiveengineering:generated_list",
+		#  "conditions": [ { "type": "forge:false" } ]
+		#}
+		recycle = ""
 
 	[machines.excavator]
 		#The Flux per tick the Excavator will consume to dig
@@ -446,8 +453,6 @@
 		retrogen_enable = false
 
 [tools]
-	#Set this to true to completely disable the ore-crushing recipes with the Engineers Hammer
-	disable_hammer_crushing = false
 	#The maximum durability of the Engineer's Hammer. Used up when hammering ingots into plates.
 	#Range: > 1
 	hammer_durability = 100
