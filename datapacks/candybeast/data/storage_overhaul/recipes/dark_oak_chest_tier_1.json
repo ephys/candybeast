@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "item": "quark:dark_oak_chest"
+    }
+  ],
+  "result": {
+    "item": "storage_overhaul:dark_oak_chest_tier_1"
+  }
+}

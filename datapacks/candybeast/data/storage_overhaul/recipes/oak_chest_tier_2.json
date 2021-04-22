@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "item": "storage_overhaul:oak_chest_tier_1"
+    }
+  ],
+  "result": {
+    "item": "storage_overhaul:oak_chest_tier_2"
+  }
+}

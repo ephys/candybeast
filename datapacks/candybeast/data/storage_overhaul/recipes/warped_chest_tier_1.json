@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "item": "quark:warped_chest"
+    }
+  ],
+  "result": {
+    "item": "storage_overhaul:warped_chest_tier_1"
+  }
+}

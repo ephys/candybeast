@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "item": "quark:jungle_chest"
+    }
+  ],
+  "result": {
+    "item": "storage_overhaul:jungle_chest_tier_1"
+  }
+}

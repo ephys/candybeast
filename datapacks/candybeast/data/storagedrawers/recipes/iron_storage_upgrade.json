@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " / ",
+        "S#E",
+        " / "
+    ],
+    "key": {
+        "/": { "tag": "forge:rods/wooden" },
+        "S": { "tag": "forge:ingots/bronze" },
+        "E": { "tag": "forge:ingots/invar" },
+        "#": { "item": "storagedrawers:obsidian_storage_upgrade" }
+    },
+    "result": { "item": "storagedrawers:iron_storage_upgrade" }
+}

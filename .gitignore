@@ -9,7 +9,9 @@
 /optionsof.txt
 /patchouli_data.json
 /realms_persistence.json
-/resourcepacks
+/resourcepacks/*
+!/resourcepacks/candybeast
+!/resourcepacks/candybeast.zip
 /saves
 /screenshots
 /servers.dat

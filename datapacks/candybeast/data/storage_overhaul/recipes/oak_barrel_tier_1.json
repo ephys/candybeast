@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "item": "storage_overhaul:oak_barrel"
+    }
+  ],
+  "result": {
+    "item": "storage_overhaul:oak_barrel_tier_1"
+  }
+}

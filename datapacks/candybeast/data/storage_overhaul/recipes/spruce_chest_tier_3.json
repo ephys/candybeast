@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:gems/diamond"
+    },
+    {
+      "item": "storage_overhaul:spruce_chest_tier_2"
+    }
+  ],
+  "result": {
+    "item": "storage_overhaul:spruce_chest_tier_3"
+  }
+}

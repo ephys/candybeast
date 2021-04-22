@@ -38,3 +38,12 @@ craftingTable.removeRecipe(<item:wstweaks:blaze_blade>);
 
 mods.jei.JEI.hideItem(<item:wstweaks:lava_blade>);
 mods.jei.JEI.hideItem(<item:wstweaks:blaze_blade>);
+
+mods.jei.JEI.hideItem(<item:storage_overhaul:oak_chest>);
+mods.jei.JEI.hideItem(<item:storage_overhaul:spruce_chest>);
+mods.jei.JEI.hideItem(<item:storage_overhaul:birch_chest>);
+mods.jei.JEI.hideItem(<item:storage_overhaul:acacia_chest>);
+mods.jei.JEI.hideItem(<item:storage_overhaul:jungle_chest>);
+mods.jei.JEI.hideItem(<item:storage_overhaul:dark_oak_chest>);
+mods.jei.JEI.hideItem(<item:storage_overhaul:crimson_chest>);
+mods.jei.JEI.hideItem(<item:storage_overhaul:warped_chest>);

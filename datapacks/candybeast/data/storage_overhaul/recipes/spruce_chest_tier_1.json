@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "item": "quark:spruce_chest"
+    }
+  ],
+  "result": {
+    "item": "storage_overhaul:spruce_chest_tier_1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " / ",
+        "S#E",
+        " / "
+    ],
+    "key": {
+        "/": { "tag": "forge:rods/wooden" },
+        "S": { "tag": "forge:ingots/signalum" },
+        "E": { "tag": "forge:ingots/electrum" },
+        "#": { "item": "storagedrawers:gold_storage_upgrade" }
+    },
+    "result": { "item": "storagedrawers:diamond_storage_upgrade" }
+}
