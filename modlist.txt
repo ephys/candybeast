@@ -84,7 +84,6 @@ Farmer-s-Delight-0.3.2-1.16.3.jar
 fastbenchminusreplacement-1.4.jar
 FastFurnace-1.16.4-4.4.0.jar
 FastLeafDecay-v25.jar
-FastWorkbench-1.16.4-4.5.1.jar
 finitewater-3.1-1.16.3.jar
 firespreadtweaks_1.16.5-1.1.jar
 fish_in_planks-1.16.5-0.3.jar
