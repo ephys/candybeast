@@ -132,7 +132,7 @@
 [The_Nether]
 	#
 	#Does BYG control The Nether?
-	ControlNether = true
+	ControlNether = false
 	#
 	#Is the list of biomes a blacklist or whitelist?
 	#When this list is a blacklist, the values in the list will not be in world generation.
