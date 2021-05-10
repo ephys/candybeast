@@ -1,9 +1,4 @@
 
-[lootTables]
-	#
-	#Allow packs to be obtained through Piglin bartering, default is true
-	piglinBartering = true
-
 [mobDrops]
 	#
 	#Odds of baby villager dropping base set packs, 0 for 0%, 1 for 100%, default is 20%
@@ -66,7 +61,7 @@
 	#Range: 0.0 ~ 10.0
 	grade2Multiplier = 1.399999976158142
 	#
-	#Base challenge points for rare cards, 1-100, default is 3
+	#Base challenge points for rare cards, 1-100, default is 4
 	#Range: 1 ~ 100
 	pointsRare = 3
 	#
@@ -97,7 +92,7 @@
 	#Range: 1 ~ 100
 	pointsCommon = 1
 	#
-	#Multiplier for challenge points on shiny cards, 0-10, default is 1.25
+	#Multiplier for challenge points on shiny cards, 0-10, default is 1.5
 	#Range: 0.0 ~ 10.0
 	shinyMultiplier = 1.25
 	#
@@ -105,7 +100,7 @@
 	#Range: 0.0 ~ 10.0
 	set5Multiplier = 1.399999976158142
 	#
-	#Base challenge points for epic cards, 1-100, default is 5
+	#Base challenge points for epic cards, 1-100, default is 8
 	#Range: 1 ~ 100
 	pointsEpic = 5
 	#
@@ -129,4 +124,18 @@
 	#
 	#Enables medal effects, default is true
 	doMedalEffects = true
+
+[enderling]
+	#
+	#Odds for an Enderling to spawn with an Enderman in the End, 0-1, default is 0.5%
+	#Range: 0.0 ~ 1.0
+	endOdds = 0.005
+	#
+	#Odds for an Enderling to spawn with an Enderman in the Nether, 0-1, default is 0.5%
+	#Range: 0.0 ~ 1.0
+	netherOdds = 0.005
+	#
+	#Odds for an Enderling to spawn with an Enderman in the Overworld, 0-1, default is 1.5%
+	#Range: 0.0 ~ 1.0
+	overOdds = 0.015
 

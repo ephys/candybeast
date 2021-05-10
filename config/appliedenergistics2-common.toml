@@ -102,7 +102,6 @@
 	wirelessTerminalDrainMultiplier = 1.0
 
 [PowerRatios]
-	IC2 = 2.0
 	ForgeEnergy = 0.5
 	#Range: 0.01 ~ 1.7976931348623157E308
 	UsageMultiplier = 1.0

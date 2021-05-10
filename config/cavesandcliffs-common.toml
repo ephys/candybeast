@@ -1,11 +1,26 @@
 
 ["World Generation Settings"]
-	#toggle the copper ore generation, useful if you use other mods that spawn copper.
-	useCopperGeneration = true
-	#define the size for the cave biomes to be generated, by default it is 4.
-	#Range: 1 ~ 10
-	caveBiomeSize = 1
-	#define the height for deepslate to generate, by default it is 0 which disables it, have fun with it
+	#determines the chance of amethyst geodes to spawn.
+	#this is chance works 1/number, so it the higher the number, the rarer it will be
+	#Default: 30
+	#Range: 0 ~ 100
+	amethystGeodeChance = 30
+
+["Ore Generation Settings"]
+	#toggle the generation of copper ore
+	doesCopperGenerate = true
+	#toggle the generation of tuff blobs
+	doesTuffGenerate = true
+	#toggle the generation of deepslate blobs
+	doesDeepslateGenerate = true
+
+["Entity Settings"]
+	#toggle the spawn of glowsquids
+	doGlowsquidsSpawn = false
+
+["Experimental Settings"]
+	#determines the max height for deepslate to generate, setting it to 0 disables it.
+	#Default: 0
 	#Range: 0 ~ 32
-	deepslateGenerationHeight = 0
+	deepslateLayerMaxHeight = 0
 

@@ -1,0 +1,9 @@
+#Enables or disables the re-roll function
+rerollEnabled = false
+#Number of Lapis Lazuli used per Enchantment seed re-roll
+#Range: 0 ~ 10000000
+lapisPerReroll = 3
+#Number of levels used per Enchantment seed re-roll
+#Range: 0 ~ 10000000
+levelsPerReroll = 1
+

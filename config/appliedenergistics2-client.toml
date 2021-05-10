@@ -9,7 +9,7 @@
 	#TODO
 	useColoredCraftingStatus = true
 	#Power unit shown in AE UIs
-	#Allowed Values: AE, EU, RF
+	#Allowed Values: AE, RF
 	PowerUnit = "AE"
 	#Controls buttons on Crafting Screen
 	#Range: 1 ~ 9
