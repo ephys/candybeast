@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:overgrown_dacite"
+    }
+  ],
+  "result": {
+    "item": "byg:dacite"
+  }
+}

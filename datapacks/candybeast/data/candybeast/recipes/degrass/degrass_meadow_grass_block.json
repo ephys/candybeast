@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:meadow_grass_block"
+    }
+  ],
+  "result": {
+    "item": "byg:meadow_dirt"
+  }
+}

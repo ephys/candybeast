@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "byg:overgrown_netherrack"
+    }
+  ],
+  "result": {
+    "item": "minecraft:netherrack"
+  }
+}
