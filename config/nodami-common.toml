@@ -5,7 +5,7 @@
 	#Range: > 0
 	iFrameInterval = 0
 	#Are players excluded from this mod (if true, players will always get 10 ticks of i-frames on being damaged
-	excludePlayers = false
+	excludePlayers = true
 	#Are players excluded from this mod (if true, players will always get 10 ticks of i-frames on being damaged
 	excludeAllMobs = false
 
