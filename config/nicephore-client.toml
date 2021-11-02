@@ -13,6 +13,9 @@
 	makeJPEGs = true
 	#If enabled, a message will appear above your hotbar telling you that has optimisation started and another when finished. Useful for very slow computers.
 	showOptimisationStatus = true
+	#Only show the PNG, JPEG or JPEG/PNG on the screenshot GUI
+	#Allowed Values: JPEG, PNG, BOTH
+	screenshotFilter = "BOTH"
 
 	["Client settings"."PNG-specific settings"]
 		#If optimiseScreenshots is enabled, use the following oxipng optimisation level, with higher numbers taking longer to process but give lower file sizes.

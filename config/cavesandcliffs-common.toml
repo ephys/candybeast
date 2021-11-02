@@ -1,26 +1,103 @@
 
-["World Generation Settings"]
-	#determines the chance of amethyst geodes to spawn.
-	#this is chance works 1/number, so it the higher the number, the rarer it will be
-	#Default: 30
-	#Range: 0 ~ 100
-	amethystGeodeChance = 30
+["Gameplay Settings"]
+	#Determines if monsters should only spawn where the light value equals zero.
+	MonstersSpawnInTotalDarkness = true
 
-["Ore Generation Settings"]
-	#toggle the generation of copper ore
-	doesCopperGenerate = true
-	#toggle the generation of tuff blobs
-	doesTuffGenerate = true
-	#toggle the generation of deepslate blobs
-	doesDeepslateGenerate = true
+	["Gameplay Settings"."Raw Ore Settings"]
+		#Determines if Iron, Gold and Copper should drop Raw Ores.
+		RawOreDrops = true
+		#Determines if Copper from other mods should also drop Raw Copper. 
+		#NOTE: This option requires 'RAW ORE DROPS' to be true.
+		RawOreDropsForExternalCopper = true
 
-["Entity Settings"]
-	#toggle the spawn of glowsquids
-	doGlowsquidsSpawn = false
+["World Generation"]
 
-["Experimental Settings"]
-	#determines the max height for deepslate to generate, setting it to 0 disables it.
-	#Default: 0
-	#Range: 0 ~ 32
-	deepslateLayerMaxHeight = 0
+	["World Generation"."Ore Generation"]
+
+		["World Generation"."Ore Generation"."Copper Settings"]
+			#Determines if Copper should generate so it doesn't interfere with other modded copper.
+			GenerateCopperOre = true
+			#Determines if Large Copper Blobs should generate in Dripstone Caves. 
+			#NOTE: This option requires 'GENERATE COPPER ORE' and 'GENERATE DRIPSTONE CAVES' to be true.
+			DripstoneCaveLargeCopperBlobs = true
+
+		["World Generation"."Ore Generation"."Tuff Settings"]
+			#Determines if Tuff Blobs should generate underground.
+			GenerateTuff = true
+			#Determines the weight of spawning for Tuff. 
+			#NOTE: This option requires 'GENERATE TUFF' to be true.
+			TuffSpawnWeight = 1
+
+		["World Generation"."Ore Generation"."Deepslate Settings"]
+			#Determines if Deepslate Blobs should generate underground.
+			GenerateDeepslate = true
+			#Determines the weight of spawning for Deepslate. 
+			#NOTE: This option requires 'GENERATE DEEPSLATE' to be true.
+			DeepslateSpawnWeight = 2
+
+	["World Generation"."Feature Generation"]
+		#Determines if Glow Lichen should generate underground.
+		GenerateGlowLichen = true
+
+		["World Generation"."Feature Generation"."Amethyst Geodes Settings"]
+			#Determines if Amethyst Geodes should generate underground.
+			GenerateAmethystGeodes = true
+			#Determines the chance of spawning for Amethyst Geodes. 
+			#NOTE: This option requires 'GENERATE AMETHYST GEODES' to be true.
+			AmethystGeodesSpawnChance = 24
+
+		["World Generation"."Feature Generation"."Azalea Tree Settings"]
+			#Determines if Azalea Trees should generate in the surface. 
+			#NOTE: This option requires 'GENERATE LUSH CAVES' to be true.
+			GenerateAzaleaTrees = true
+			#Determines the chance of spawning for Azalea Trees. 
+			#NOTE: This option requires 'GENERATE AZALEA TREES' and 'GENERATE LUSH CAVES' to be true.
+			"AzaleaTreeGeneration Chance" = 2
+
+	["World Generation"."Biome Generation"]
+		#Determines if Dripstone Caves should generate underground. 
+		#NOTE: using TERRAFORGED worldtype will prevent this biome to spawn.
+		GenerateDripstoneCaves = true
+		#Determines if Lush Caves should generate underground. 
+		#NOTE: using TERRAFORGED worldtype will prevent this biome to spawn.
+		GenerateLushCaves = true
+
+	["World Generation"."Entity Generation"]
+
+		["World Generation"."Entity Generation"."Glow Squid Settings"]
+			#Determines if Glow Squids should generate.
+			GenerateGlowSquids = false
+			#Determines the weight of spawning for Glow Squids. 
+			#NOTE: This option requires 'GENERATE GLOW SQUIDS' to be true.
+			GlowSquidSpawnWeight = 10
+			#Determines if Glow Squids should generate as in 1.17. 
+			#NOTE: This option requires 'GENERATE GLOW SQUIDS' to be true.
+			LegacyGlowSquidGeneration = false
+
+		["World Generation"."Entity Generation"."Axolotl Settings"]
+			#Determines if Axolotls should generate.
+			GenerateAxolotls = true
+			#Determines the weight of spawning for Axolotls. 
+			#NOTE: This option requires 'GENERATE AXOLOTLS' to be true.
+			AxolotlSpawnWeight = 10
+			#Determines if Axolotls should generate as in 1.17. 
+			#In 1.18 they can generate in clay pools inside of LUSH CAVES. 
+			#NOTE: This option requires 'GENERATE AXOLOTLS' to be true.
+			LegacyAxolotlGeneration = false
+
+		["World Generation"."Entity Generation"."Goat Settings"]
+			#Determines if Goats should generate.
+			GenerateGoats = true
+			#Determines the weight of spawning for Goats. 
+			#NOTE: This option requires 'GENERATE GOATS' to be true.
+			GoatSpawnWeight = 10
+
+["Client Settings"]
+	#Determines the Value for the Panorama to display. 
+	#This option can alternate the panorama in the main menu by using numbers. 
+	#0 = default panoramic view. 
+	#1 = part I panoramic view. 
+	#2 = part II panoramic view.
+	#Range: 0 ~ 2
+	PanoramaValue = 2
 

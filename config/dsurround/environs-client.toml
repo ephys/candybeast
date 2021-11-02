@@ -40,6 +40,9 @@
 	#Cap the maximum bands that will be rendered
 	#Range: 0 ~ 3
 	"Maximum Bands" = 3
+	#Limit sounds to waterfall strengths above this value
+	#Range: 0 ~ 10
+	"Waterfall Strength Cutoff" = 0
 
 #Options that control the various fog effects in the client
 ["Fog Options"]
@@ -55,9 +58,9 @@
 	"Bedrock Fog" = false
 	#Increase fog based on the strength of rain
 	"Weather Fog" = true
-	#Chance morning fog will occurs expressed as 1 in N
-	#Range: > 0
-	"Morning Fog Chance" = 1
+	#Percentage chance morning fog will occur
+	#Range: 1 ~ 100
+	"Morning Fog Chance Percentage" = 80
 
 #Options for defining sound behavior
 ["Sound Options"]

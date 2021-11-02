@@ -5,6 +5,15 @@
 	enableVanillaCropCrates = true
 	#Should Novice and Apprentice Farmers buy this mod's crops? (May reduce chances of other trades appearing)
 	farmersBuyFDCrops = true
+	#How often (in percentage) should Rich Soil succeed in boosting a plant's growth at each random tick? Set it to 0.0 to disable this.
+	#Range: 0.0 ~ 1.0
+	richSoilBoostChance = 0.2
+	#How much of a bonus (in percentage) should each level of Fortune grant to Cutting Board chances? Set it to 0.0 to disable this.
+	#Range: 0.0 ~ 1.0
+	cuttingBoardFortuneBonus = 0.1
+	#A list of dye colors that, when used as the background of a Canvas Sign, should default to white text when placed.
+	#Dyes: ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "light_gray", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+	canvasSignDarkBackgroundList = ["gray", "purple", "blue", "brown", "green", "red", "black"]
 
 #Vanilla item overrides
 [overrides]
@@ -14,6 +23,15 @@
 	dispenserUsesToolsOnCuttingBoard = true
 	#Should items inside the tag 'farmersdelight:comfort_foods' grant 5 minutes of Comfort when eaten? (defaults to vanilla SoupItems)
 	comfortFoodTagEffect = true
+
+	#Stack size overrides
+	[overrides.stack_size]
+		#Should SoupItems in the following list become stackable to 16, much like Farmer's Delight's meals?
+		enableStackableSoupItems = true
+		#List of SoupItems. Default: vanilla soups and stews.
+		soupItemList = ["minecraft:mushroom_stew", "minecraft:beetroot_soup", "minecraft:rabbit_stew"]
+		#Toggle this setting to instead make ALL SoupItems stackable, except the ones on the list (deny-list). This affects items from other mods, so be careful!
+		overrideAllSoupItems = false
 
 #World generation
 [world]
