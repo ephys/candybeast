@@ -4,7 +4,7 @@
 /data
 /icon.png
 /logs
-/mods
+/mods*
 /options.txt
 /optionsof.txt
 /patchouli_data.json
@@ -18,3 +18,4 @@
 /usercache.json
 /usernamecache.json
 /crash-reports
+*.bak
