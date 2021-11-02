@@ -140,3 +140,7 @@ mods.jei.JEI.hideItem(<item:storage_overhaul:jungle_chest>);
 mods.jei.JEI.hideItem(<item:storage_overhaul:dark_oak_chest>);
 mods.jei.JEI.hideItem(<item:storage_overhaul:crimson_chest>);
 mods.jei.JEI.hideItem(<item:storage_overhaul:warped_chest>);
+
+// make spawners very hard to break
+
+<blockstate:minecraft:spawner>.setHardness(10000f);
