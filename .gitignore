@@ -19,3 +19,6 @@
 /usernamecache.json
 /crash-reports
 *.bak
+/tconplanner/bookmark.dat
+*.dat_old
+/imm_ptl_state.json

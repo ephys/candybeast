@@ -2038,6 +2038,7 @@
 	"Narrator Readout" = false
 	"Overlay Shader" = false
 	Shiba = true
+	Pallet = false
 
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0
