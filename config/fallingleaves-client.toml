@@ -10,7 +10,7 @@ leafSpawnRate = 10
 #modifier the amount of leaves are spawning from conifer trees
 #Range: 0 ~ 10000
 coniferLeafSpawnRate = 2
-#weather player placed blocks should also drop leaves
+#whether player placed blocks should also drop leaves
 dropFromPlayerPlacedBlocks = true
 #how much room below the leaves block is needed for the leaves to spawn
 #Range: 1 ~ 20

@@ -25,6 +25,8 @@
 		#Maximum block range
 		#Range: 0 ~ 100000000
 		range = 64
+		#Enable/disable speaker block narrator mode
+		narrator_enabled = true
 
 	[blocks.sack]
 		#Maximum number of sacks after which the slowness effect will be applied. each multiple of this number will further slow the player down
@@ -297,6 +299,8 @@
 		#Enchantment power bonus given by normal book piles with 4 books. Piles with less books will have their respective fraction of this total. For reference a vanilla bookshelf provides 1
 		#Range: 0.0 ~ 5.0
 		enchanted_book_power = 1.334
+		#Allows written books to be placeable (will need shift clicking)
+		written_books = false
 
 	[tweaks.zombie_horse]
 		#Feed a stack of rotten flesh to a skeleton horse to buff him up to a zombie horse

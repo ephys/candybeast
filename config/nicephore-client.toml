@@ -4,22 +4,31 @@
 	#Note: Enabling this will cause screenshots to take slightly longer to save as an optimisation step will have to be run first.
 	#Tip: In the rare case that a screenshot PNG is corrupted, run "oxipng --fix (filename).png" to attempt to fix it.
 	optimiseScreenshots = false
-	#JPEG compression level, the higher the number, the better the quality.
-	#Note that 1.0 is *not* lossless as JPEG is a lossy-only format, use the PNG files instead if you want lossless.
-	#Range: 0.0 ~ 1.0
-	compression = 0.9
-	#Enable to allow Nicephore to make lossy JPEGs of your screenshots for easier online sharing. Disable to only allow PNGs.
-	#Note that PNGs will still be made regardless of this option.
-	makeJPEGs = true
 	#If enabled, a message will appear above your hotbar telling you that has optimisation started and another when finished. Useful for very slow computers.
 	showOptimisationStatus = true
-	#Only show the PNG, JPEG or JPEG/PNG on the screenshot GUI
-	#Allowed Values: JPEG, PNG, BOTH
-	screenshotFilter = "BOTH"
+	#Automatically put newly made screenshots into your clipboard
+	screenshotToClipboard = true
+	#Display a custom message when a screenshot is made.
+	#This message show some option to open directly the different screenshots made or the folder.
+	screenshotCustomMessage = true
 
 	["Client settings"."PNG-specific settings"]
 		#If optimiseScreenshots is enabled, use the following oxipng optimisation level, with higher numbers taking longer to process but give lower file sizes.
 		#Tip: I would avoid anything above 3 unless you have a lot of CPU cores and threads (e.g. 16c/32t+) as it starts taking significantly longer to process for vastly diminishing returns.
 		#Range: 0 ~ 5
 		pngOptimisationLevel = 2
+
+	["Client settings"."GUI-specific settings"]
+		#Only show the PNG, JPEG or JPEG/PNG on the screenshot GUI
+		#Allowed Values: JPEG, PNG, BOTH
+		screenshotFilter = "BOTH"
+
+	["Client settings"."JPEG-specific settings"]
+		#JPEG compression level, the higher the number, the better the quality.
+		#Note that 1.0 is *not* lossless as JPEG is a lossy-only format, use the PNG files instead if you want lossless.
+		#Range: 0.0 ~ 1.0
+		compression = 0.9
+		#Enable to allow Nicephore to make lossy JPEGs of your screenshots for easier online sharing. Disable to only allow PNGs.
+		#Note that PNGs will still be made regardless of this option.
+		makeJPEGs = false
 
