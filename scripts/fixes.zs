@@ -84,8 +84,8 @@ mods.jei.JEI.hideItem(<item:thermal:prismarine_powered_rail>);
 mods.jei.JEI.hideItem(<item:thermal:prismarine_activator_rail>);
 mods.jei.JEI.hideItem(<item:thermal:prismarine_detector_rail>);
 
-craftingTable.removeRecipe(<item:ob_core:iron_gear>);
-mods.jei.JEI.hideItem(<item:ob_core:iron_gear>);
+#craftingTable.removeRecipe(<item:ob_core:iron_gear>);
+#mods.jei.JEI.hideItem(<item:ob_core:iron_gear>);
 
 mods.jei.JEI.hideItem(<item:enderstorage:ender_chest>);
 mods.jei.JEI.hideItem(<item:enderstorage:ender_tank>);
@@ -141,6 +141,84 @@ mods.jei.JEI.hideItem(<item:storage_overhaul:dark_oak_chest>);
 mods.jei.JEI.hideItem(<item:storage_overhaul:crimson_chest>);
 mods.jei.JEI.hideItem(<item:storage_overhaul:warped_chest>);
 
-// make spawners very hard to break
+mods.jei.JEI.hideItem(<item:quark:stone_lamp>);
+mods.jei.JEI.hideItem(<item:quark:stone_brick_lamp>);
+mods.jei.JEI.hideItem(<item:quark:pipe>);
+
+// they are the same as buzzier bees, but can't place multiple in one block
+
+mods.jei.JEI.hideItem(<item:quark:white_candle>);
+mods.jei.JEI.hideItem(<item:quark:orange_candle>);
+mods.jei.JEI.hideItem(<item:quark:pink_candle>);
+mods.jei.JEI.hideItem(<item:quark:light_blue_candle>);
+mods.jei.JEI.hideItem(<item:quark:yellow_candle>);
+mods.jei.JEI.hideItem(<item:quark:lime_candle>);
+mods.jei.JEI.hideItem(<item:quark:magenta_candle>);
+mods.jei.JEI.hideItem(<item:quark:gray_candle>);
+mods.jei.JEI.hideItem(<item:quark:light_gray_candle>);
+mods.jei.JEI.hideItem(<item:quark:cyan_candle>);
+mods.jei.JEI.hideItem(<item:quark:purple_candle>);
+mods.jei.JEI.hideItem(<item:quark:blue_candle>);
+mods.jei.JEI.hideItem(<item:quark:brown_candle>);
+mods.jei.JEI.hideItem(<item:quark:green_candle>);
+mods.jei.JEI.hideItem(<item:quark:red_candle>);
+mods.jei.JEI.hideItem(<item:quark:black_candle>);
+
+// remove project red useless items
+
+craftingTable.removeRecipe(<item:projectred-core:electrotine_iron_comp>);
+craftingTable.removeRecipe(<item:projectred-core:electrotine_silicon_comp>);
+craftingTable.removeRecipe(<item:projectred-core:woven_cloth>);
+craftingTable.removeRecipe(<item:projectred-core:copper_coil>);
+craftingTable.removeRecipe(<item:projectred-core:iron_coil>);
+craftingTable.removeRecipe(<item:projectred-core:gold_coil>);
+
+mods.jei.JEI.hideItem(<item:projectred-core:copper_coil>);
+mods.jei.JEI.hideItem(<item:projectred-core:iron_coil>);
+mods.jei.JEI.hideItem(<item:projectred-core:gold_coil>);
+mods.jei.JEI.hideItem(<item:projectred-core:motor>);
+mods.jei.JEI.hideItem(<item:projectred-core:electrotine_iron_comp>);
+mods.jei.JEI.hideItem(<item:projectred-core:electrotine_silicon_comp>);
+mods.jei.JEI.hideItem(<item:projectred-core:electrotine_silicon>);
+mods.jei.JEI.hideItem(<item:projectred-core:copper_ingot>);
+mods.jei.JEI.hideItem(<item:projectred-core:tin_ingot>);
+mods.jei.JEI.hideItem(<item:projectred-core:silver_ingot>);
+mods.jei.JEI.hideItem(<item:projectred-core:electrotine_ingot>);
+mods.jei.JEI.hideItem(<item:projectred-core:electrotine_dust>);
+mods.jei.JEI.hideItem(<item:projectred-core:ruby>);
+mods.jei.JEI.hideItem(<item:projectred-core:peridot>);
+mods.jei.JEI.hideItem(<item:projectred-core:sapphire>);
+mods.jei.JEI.hideItem(<item:projectred-core:null_routing_chip>);
+mods.jei.JEI.hideItem(<item:projectred-core:woven_cloth>);
+mods.jei.JEI.hideItem(<item:projectred-core:sail>);
+
+// remove duplicate ores
+
+mods.jei.JEI.hideItem(<item:create:copper_ore>);
+mods.jei.JEI.hideItem(<item:immersiveengineering:ore_copper>);
+mods.jei.JEI.hideItem(<item:immersiveengineering:ore_lead>);
+mods.jei.JEI.hideItem(<item:immersiveengineering:ore_silver>);
+mods.jei.JEI.hideItem(<item:immersiveengineering:ore_nickel>);
+mods.jei.JEI.hideItem(<item:thermal:copper_ore>);
+mods.jei.JEI.hideItem(<item:tmechworks:aluminum_ore>);
+mods.jei.JEI.hideItem(<item:tmechworks:copper_ore>);
+mods.jei.JEI.hideItem(<item:tconstruct:copper_ore>);
+
+// remove useless things
+
+mods.jei.JEI.hideItem(<item:tmechworks:copper_ingot>);
+mods.jei.JEI.hideItem(<item:create:copper_ingot>);
+mods.jei.JEI.hideItem(<item:immersiveengineering:ingot_copper>);
+mods.jei.JEI.hideItem(<item:thermal:copper_ingot>);
+mods.jei.JEI.hideItem(<item:tconstruct:copper_ingot>);
+
+mods.jei.JEI.hideItem(<item:immersiveengineering:nugget_copper>);
+mods.jei.JEI.hideItem(<item:thermal:copper_nugget>);
+mods.jei.JEI.hideItem(<item:tmechworks:copper_nugget>);
+mods.jei.JEI.hideItem(<item:tconstruct:copper_nugget>);
+
+mods.jei.JEI.hideItem(<item:immersiveengineering:dust_copper>);
+
+// make spawners very hard to break but not unbreakable so they can be moved by pistons
 
 <blockstate:minecraft:spawner>.setHardness(10000f);
