@@ -2,19 +2,19 @@
   "biomes": {
     "byg:bulbis_gardens": {
       "dictionary": "END",
-      "weight": 5,
+      "weight": 1,
       "edge": "byg:bulbis_gardens_edge",
       "hills": []
     },
     "byg:cryptic_wastes": {
       "dictionary": "END",
-      "weight": 5,
+      "weight": 0,
       "edge": "",
       "hills": []
     },
     "byg:ethereal_islands": {
       "dictionary": "END",
-      "weight": 5,
+      "weight": 0,
       "edge": "byg:ethereal_clearing",
       "hills": [
         {
@@ -29,31 +29,31 @@
     },
     "byg:ivis_fields": {
       "dictionary": "END",
-      "weight": 5,
+      "weight": 0,
       "edge": "",
       "hills": []
     },
     "byg:nightshade_forest": {
       "dictionary": "END",
-      "weight": 5,
+      "weight": 0,
       "edge": "",
       "hills": []
     },
     "byg:purpur_peaks": {
       "dictionary": "END",
-      "weight": 5,
+      "weight": 0,
       "edge": "",
       "hills": []
     },
     "byg:shattered_desert": {
       "dictionary": "END",
-      "weight": 5,
+      "weight": 0,
       "edge": "",
       "hills": []
     },
     "byg:shulkren_forest": {
       "dictionary": "END",
-      "weight": 5,
+      "weight": 0,
       "edge": "",
       "hills": []
     },
@@ -73,7 +73,7 @@
   "void-biomes": {
     "byg:viscal_isles": {
       "dictionary": "END,VOID",
-      "weight": 5,
+      "weight": 2,
       "edge": "",
       "hills": [
         {
