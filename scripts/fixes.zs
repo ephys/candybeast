@@ -24,9 +24,10 @@ craftingTable.removeRecipe(<item:waystones:sandy_waystone>);
 craftingTable.removeRecipe(<item:waystones:mossy_waystone>);
 craftingTable.removeRecipe(<item:waystones:warp_scroll>);
 mods.jei.JEI.hideItem(<item:waystones:warp_scroll>);
+craftingTable.removeRecipe(<item:waystones:return_scroll>);
+mods.jei.JEI.hideItem(<item:waystones:return_scroll>);
 craftingTable.removeRecipe(<item:waystones:warp_stone>);
 mods.jei.JEI.hideItem(<item:waystones:warp_stone>);
-
 
 craftingTable.removeRecipe(<item:waystones:warp_plate>);
 craftingTable.removeRecipe(<item:waystones:attuned_shard>);
@@ -72,6 +73,8 @@ mods.jei.JEI.hideItem(<item:waystones:green_sharestone>);
 mods.jei.JEI.hideItem(<item:waystones:red_sharestone>);
 mods.jei.JEI.hideItem(<item:waystones:black_sharestone>);
 
+// disable prismarine rails as regular rails are waterloggable
+
 craftingTable.removeRecipe(<item:thermal:prismarine_rail>);
 craftingTable.removeRecipe(<item:thermal:prismarine_crossover_rail>);
 craftingTable.removeRecipe(<item:thermal:prismarine_powered_rail>);
@@ -84,8 +87,22 @@ mods.jei.JEI.hideItem(<item:thermal:prismarine_powered_rail>);
 mods.jei.JEI.hideItem(<item:thermal:prismarine_activator_rail>);
 mods.jei.JEI.hideItem(<item:thermal:prismarine_detector_rail>);
 
+// remove op garden cloche & co
+
+craftingTable.removeRecipe(<item:immersiveengineering:cloche>);
+craftingTable.removeRecipe(<item:thermal:machine_insolator>);
+
+mods.jei.JEI.hideCategory("immersiveengineering:cloche");
+mods.jei.JEI.hideCategory("thermal:insolator");
+mods.jei.JEI.hideCategory("thermal:insolator_catalyst");
+
+mods.jei.JEI.hideItem(<item:immersiveengineering:cloche>);
+mods.jei.JEI.hideItem(<item:thermal:machine_insolator>);
+
 #craftingTable.removeRecipe(<item:ob_core:iron_gear>);
 #mods.jei.JEI.hideItem(<item:ob_core:iron_gear>);
+
+// disable OP things
 
 mods.jei.JEI.hideItem(<item:enderstorage:ender_chest>);
 mods.jei.JEI.hideItem(<item:enderstorage:ender_tank>);
@@ -226,8 +243,6 @@ mods.jei.JEI.hideItem(<item:tmechworks:aluminum_block>);
 mods.jei.JEI.hideItem(<item:tmechworks:aluminum_ingot>);
 mods.jei.JEI.hideItem(<item:tmechworks:aluminum_nugget>);
 mods.jei.JEI.hideItem(<item:tmechworks:copper_block>);
-
-
 
 // make spawners very hard to break but not unbreakable so they can be moved by pistons
 
