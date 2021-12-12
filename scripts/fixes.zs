@@ -218,6 +218,16 @@ mods.jei.JEI.hideItem(<item:tmechworks:copper_nugget>);
 mods.jei.JEI.hideItem(<item:tconstruct:copper_nugget>);
 
 mods.jei.JEI.hideItem(<item:immersiveengineering:dust_copper>);
+mods.jei.JEI.hideItem(<item:immersiveengineering:dust_lead>);
+mods.jei.JEI.hideItem(<item:immersiveengineering:nugget_lead>);
+mods.jei.JEI.hideItem(<item:immersiveengineering:ingot_lead>);
+
+mods.jei.JEI.hideItem(<item:tmechworks:aluminum_block>);
+mods.jei.JEI.hideItem(<item:tmechworks:aluminum_ingot>);
+mods.jei.JEI.hideItem(<item:tmechworks:aluminum_nugget>);
+mods.jei.JEI.hideItem(<item:tmechworks:copper_block>);
+
+
 
 // make spawners very hard to break but not unbreakable so they can be moved by pistons
 
