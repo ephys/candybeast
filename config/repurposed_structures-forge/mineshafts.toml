@@ -26,7 +26,7 @@
 	#Range: 0.0 ~ 1000.0
 	swampMineshaftSpawnrate = 40.0
 	#Range: 0.0 ~ 1000.0
-	endMineshaftSpawnrate = 60.0
+	endMineshaftSpawnrate = 0.0
 	#Range: 0.0 ~ 1000.0
 	netherMineshaftSpawnrate = 40.0
 	#Range: 0.0 ~ 1000.0
