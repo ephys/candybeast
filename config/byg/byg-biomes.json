@@ -381,7 +381,7 @@
     "byg:enchanted_forest": {
       "climate": "WARM",
       "dictionary": "FOREST,MAGICAL,OVERWORLD,RARE",
-      "weight": 1,
+      "weight": 0,
       "river": "minecraft:river",
       "beach": "minecraft:beach",
       "edge": "",
@@ -399,7 +399,7 @@
     "byg:enchanted_grove": {
       "climate": "WARM",
       "dictionary": "LUSH,MAGICAL,OVERWORLD,PLAINS,RARE",
-      "weight": 1,
+      "weight": 0,
       "river": "minecraft:river",
       "beach": "minecraft:beach",
       "edge": "",
@@ -439,7 +439,7 @@
     "byg:glowshroom_bayou": {
       "climate": "WARM",
       "dictionary": "FOREST,MAGICAL,OVERWORLD,RARE,SWAMP,WET",
-      "weight": 1,
+      "weight": 0,
       "river": "byg:glowshroom_bayou",
       "beach": "byg:glowshroom_bayou",
       "edge": "",
@@ -851,12 +851,8 @@
       "weight": 5,
       "river": "minecraft:river",
       "beach": "minecraft:beach",
-      "edge": "byg:sierra_range",
+      "edge": "",
       "hills": [
-        {
-          "name": "byg:sierra_range",
-          "weight": 8
-        },
         {
           "name": "byg:fresh_water_lake",
           "weight": 2

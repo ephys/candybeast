@@ -1,42 +1,42 @@
 {
   "biomes": {
     "byg:sythian_torrids": {
-      "weight": 5,
+      "weight": 0,
       "dictionary": [
         "NETHER"
       ],
       "hills": []
     },
     "byg:embur_bog": {
-      "weight": 5,
+      "weight": 1,
       "dictionary": [
         "NETHER"
       ],
       "hills": []
     },
     "byg:magma_wastes": {
-      "weight": 5,
+      "weight": 1,
       "dictionary": [
         "NETHER"
       ],
       "hills": []
     },
     "byg:withering_woods": {
-      "weight": 5,
+      "weight": 1,
       "dictionary": [
         "NETHER"
       ],
       "hills": []
     },
     "byg:wailing_garth": {
-      "weight": 5,
+      "weight": 1,
       "dictionary": [
         "NETHER"
       ],
       "hills": []
     },
     "byg:glowstone_gardens": {
-      "weight": 5,
+      "weight": 0,
       "dictionary": [
         "NETHER"
       ],
@@ -71,28 +71,28 @@
       "hills": []
     },
     "byg:warped_desert": {
-      "weight": 5,
+      "weight": 0,
       "dictionary": [
         "NETHER"
       ],
       "hills": []
     },
     "byg:weeping_mire": {
-      "weight": 5,
+      "weight": 1,
       "dictionary": [
         "NETHER"
       ],
       "hills": []
     },
     "byg:quartz_desert": {
-      "weight": 5,
+      "weight": 1,
       "dictionary": [
         "NETHER"
       ],
       "hills": []
     },
     "byg:subzero_hypogeal": {
-      "weight": 1,
+      "weight": 0,
       "dictionary": [
         "NETHER"
       ],
@@ -113,7 +113,7 @@
       "hills": []
     },
     "byg:brimstone_caverns": {
-      "weight": 5,
+      "weight": 0,
       "dictionary": [
         "NETHER"
       ],
