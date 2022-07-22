@@ -371,12 +371,12 @@
 			#Range: 1 ~ 999
 			DamageBonusCorruptWeapon = 7
 			#Enable Corrupt Upgraded Weapon Effect : Increase Looting ?
-			EnableLootingBonusCorruptWeapon = true
+			EnableLootingBonusCorruptWeapon = false
 			#How much is the looting bonus increased ?
 			#Range: 1 ~ 99
 			LootingBonusCorruptWeapon = 2
 			#Enable Gold Upgraded Weapon Effect : Increase Fortune ?
-			EnableFortuneBonusCorruptTool = true
+			EnableFortuneBonusCorruptTool = false
 			#How much is the fortune bonus increased ?
 			#Range: 1 ~ 99
 			FortuneBonusCorruptTool = 2
