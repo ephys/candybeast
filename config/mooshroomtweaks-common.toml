@@ -1,0 +1,6 @@
+
+[General]
+	#The chance of a Red Mooshroom becoming a Brown Mooshroom.
+	#Range: 0.0 ~ 1.0
+	becomeBrownChance = 0.5
+

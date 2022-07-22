@@ -1,0 +1,23 @@
+
+#Gadget client settings
+[client]
+	#Where on the screen to display the gadget gui
+	#Allowed Values: TOP_LEFT, TOP_MIDDLE, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	gadgetGuiPosition = "TOP_LEFT"
+	#Display a transparent black background for the gadget gui
+	gadgetGuiBackground = true
+	#Display icons for gadget gui items
+	gadgetGuiIcons = true
+	#The width of each gadget gui item
+	#Range: 80 ~ 320
+	gadgetGuiWidth = 120
+	#Should the gadget gui be hidden when the debug info (F3) is shown
+	hideWhenDebugShown = true
+	#Display the clock gadget gui in 24 hour (true) or 12 hour (false) format
+	clockGadget24Hour = true
+	#If enabled, a player needs each gadget equipped for its gadget gui to be rendered. If disabled, a player just gets all gui items by default
+	needCurios = true
+	#The number of slots for gadgets the player has
+	#Range: 0 ~ 5
+	gadgetSlots = 2
+

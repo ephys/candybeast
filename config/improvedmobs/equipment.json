@@ -1,0 +1,600 @@
+{
+  "__comment": [
+    "Mobs will be able to equip items declared here",
+    "The first number is the weight while the second number is the quality",
+    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
+    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+  ],
+  "MAINHAND": {
+    "ae2:certus_quartz_axe": [
+      1087,
+      -0.696
+    ],
+    "ae2:certus_quartz_sword": [
+      1225,
+      -1.8
+    ],
+    "ae2:fluix_axe": [
+      915,
+      0.68
+    ],
+    "ae2:fluix_sword": [
+      1058,
+      -0.464
+    ],
+    "ae2:nether_quartz_axe": [
+      1087,
+      -0.696
+    ],
+    "ae2:nether_quartz_sword": [
+      1225,
+      -1.8
+    ],
+    "alexsmobs:skelewag_sword": [
+      1226,
+      -1.808
+    ],
+    "botania:crystal_bow": [
+      1050,
+      0.0
+    ],
+    "botania:elementium_axe": [
+      946,
+      0.432
+    ],
+    "botania:elementium_sword": [
+      1084,
+      -0.672
+    ],
+    "botania:ender_dagger": [
+      1279,
+      -2.232
+    ],
+    "botania:livingwood_bow": [
+      1050,
+      0.0
+    ],
+    "botania:manasteel_axe": [
+      1072,
+      -0.576
+    ],
+    "botania:manasteel_sword": [
+      1210,
+      -1.68
+    ],
+    "botania:star_sword": [
+      568,
+      3.456
+    ],
+    "botania:terra_axe": [
+      418,
+      4.656
+    ],
+    "botania:terra_sword": [
+      568,
+      3.456
+    ],
+    "botania:thunder_sword": [
+      568,
+      3.456
+    ],
+    "minecraft:bow": [
+      1108,
+      0.0
+    ],
+    "minecraft:crossbow": [
+      1000,
+      0.0
+    ],
+    "minecraft:diamond_axe": [
+      693,
+      2.456
+    ],
+    "minecraft:diamond_sword": [
+      789,
+      1.688
+    ],
+    "minecraft:enchanted_book": [
+      1100,
+      0.0
+    ],
+    "minecraft:golden_axe": [
+      1248,
+      -1.984
+    ],
+    "minecraft:golden_sword": [
+      1362,
+      -2.896
+    ],
+    "minecraft:iron_axe": [
+      1087,
+      -0.696
+    ],
+    "minecraft:iron_sword": [
+      1225,
+      -1.8
+    ],
+    "minecraft:lingering_potion{Potion:\"minecraft:harming\"}": [
+      1050,
+      0.0
+    ],
+    "minecraft:netherite_axe": [
+      498,
+      4.016
+    ],
+    "minecraft:netherite_sword": [
+      602,
+      3.184
+    ],
+    "minecraft:snowball": [
+      1400,
+      0.0
+    ],
+    "minecraft:splash_potion{Potion:\"minecraft:harming\"}": [
+      1050,
+      0.0
+    ],
+    "minecraft:stone_axe": [
+      1122,
+      -0.976
+    ],
+    "minecraft:stone_sword": [
+      1298,
+      -2.384
+    ],
+    "minecraft:tnt": [
+      800,
+      0.0
+    ],
+    "minecraft:trident": [
+      900,
+      0.0
+    ],
+    "minecraft:wooden_axe": [
+      1240,
+      -1.92
+    ],
+    "minecraft:wooden_sword": [
+      1354,
+      -2.832
+    ],
+    "wstweaks:blaze_blade": [
+      1,
+      10.448
+    ],
+    "wstweaks:lava_blade": [
+      1,
+      10.448
+    ]
+  },
+  "OFFHAND": {
+    "minecraft:ender_pearl": [
+      1100,
+      0.0
+    ],
+    "minecraft:flint_and_steel": [
+      1200,
+      0.0
+    ],
+    "minecraft:lava_bucket": [
+      900,
+      0.0
+    ],
+    "minecraft:shield": [
+      1350,
+      0.0
+    ]
+  },
+  "FEET": {
+    "alexsmobs:flying_fish_boots": [
+      1342,
+      -2.736
+    ],
+    "alexsmobs:roadrunner_boots": [
+      903,
+      0.776
+    ],
+    "botania:elementium_boots": [
+      704,
+      2.368
+    ],
+    "botania:manasteel_boots": [
+      729,
+      2.168
+    ],
+    "botania:manaweave_boots": [
+      1331,
+      -2.648
+    ],
+    "botania:terrasteel_boots": [
+      1,
+      8.312
+    ],
+    "create:diving_boots": [
+      1141,
+      -1.128
+    ],
+    "gildedarmor:gilded_enderite_boots": [
+      1,
+      16.808
+    ],
+    "gildedarmor:gilded_netherite_boots": [
+      1,
+      8.52
+    ],
+    "minecraft:chainmail_boots": [
+      1098,
+      -0.784
+    ],
+    "minecraft:diamond_boots": [
+      444,
+      4.448
+    ],
+    "minecraft:golden_boots": [
+      1201,
+      -1.608
+    ],
+    "minecraft:iron_boots": [
+      954,
+      0.368
+    ],
+    "minecraft:leather_boots": [
+      1356,
+      -2.848
+    ],
+    "minecraft:netherite_boots": [
+      361,
+      5.112
+    ],
+    "scuba_gear:scuba_boots": [
+      954,
+      0.368
+    ],
+    "tconstruct:plate_boots": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:slime_boots": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:travelers_boots": [
+      1498,
+      -3.984
+    ],
+    "thermal:beekeeper_boots": [
+      1313,
+      -2.504
+    ],
+    "thermal:diving_boots": [
+      976,
+      0.192
+    ],
+    "thermal:hazmat_boots": [
+      1055,
+      -0.44
+    ]
+  },
+  "LEGS": {
+    "alexsmobs:centipede_leggings": [
+      1,
+      9.56
+    ],
+    "alexsmobs:emu_leggings": [
+      733,
+      2.136
+    ],
+    "botania:elementium_leggings": [
+      704,
+      2.368
+    ],
+    "botania:manasteel_leggings": [
+      729,
+      2.168
+    ],
+    "botania:manaweave_leggings": [
+      1331,
+      -2.648
+    ],
+    "botania:terrasteel_leggings": [
+      1,
+      8.312
+    ],
+    "gildedarmor:gilded_enderite_leggings": [
+      1,
+      16.808
+    ],
+    "gildedarmor:gilded_netherite_leggings": [
+      1,
+      8.52
+    ],
+    "minecraft:chainmail_leggings": [
+      1098,
+      -0.784
+    ],
+    "minecraft:diamond_leggings": [
+      444,
+      4.448
+    ],
+    "minecraft:golden_leggings": [
+      1201,
+      -1.608
+    ],
+    "minecraft:iron_leggings": [
+      954,
+      0.368
+    ],
+    "minecraft:leather_leggings": [
+      1356,
+      -2.848
+    ],
+    "minecraft:netherite_leggings": [
+      361,
+      5.112
+    ],
+    "scuba_gear:scuba_leggings": [
+      954,
+      0.368
+    ],
+    "tconstruct:plate_leggings": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:slime_leggings": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:travelers_leggings": [
+      1498,
+      -3.984
+    ],
+    "thermal:beekeeper_leggings": [
+      1313,
+      -2.504
+    ],
+    "thermal:diving_leggings": [
+      976,
+      0.192
+    ],
+    "thermal:hazmat_leggings": [
+      1055,
+      -0.44
+    ]
+  },
+  "CHEST": {
+    "alexsmobs:crocodile_chestplate": [
+      478,
+      4.176
+    ],
+    "alexsmobs:rocky_chestplate": [
+      526,
+      3.792
+    ],
+    "alexsmobs:tarantula_hawk_elytra": [
+      897,
+      0.824
+    ],
+    "botania:elementium_chestplate": [
+      704,
+      2.368
+    ],
+    "botania:manasteel_chestplate": [
+      729,
+      2.168
+    ],
+    "botania:manaweave_chestplate": [
+      1331,
+      -2.648
+    ],
+    "botania:terrasteel_chestplate": [
+      1,
+      8.312
+    ],
+    "copperoverhaul:chain_copper_alloy_chestplate": [
+      912,
+      0.704
+    ],
+    "copperoverhaul:gold_copper_alloy_chestplate": [
+      1067,
+      -0.536
+    ],
+    "copperoverhaul:iron_copper_alloy_chestplate": [
+      847,
+      1.224
+    ],
+    "copperoverhaul:netherite_copper_alloy_chestplate": [
+      72,
+      7.424
+    ],
+    "create:copper_backtank": [
+      1141,
+      -1.128
+    ],
+    "gildedarmor:gilded_enderite_chestplate": [
+      1,
+      16.808
+    ],
+    "gildedarmor:gilded_netherite_chestplate": [
+      1,
+      8.52
+    ],
+    "minecraft:chainmail_chestplate": [
+      1098,
+      -0.784
+    ],
+    "minecraft:diamond_chestplate": [
+      444,
+      4.448
+    ],
+    "minecraft:golden_chestplate": [
+      1201,
+      -1.608
+    ],
+    "minecraft:iron_chestplate": [
+      954,
+      0.368
+    ],
+    "minecraft:leather_chestplate": [
+      1356,
+      -2.848
+    ],
+    "minecraft:netherite_chestplate": [
+      361,
+      5.112
+    ],
+    "quark:backpack": [
+      1356,
+      -2.848
+    ],
+    "scuba_gear:scuba_chestplate": [
+      954,
+      0.368
+    ],
+    "tconstruct:plate_chestplate": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:slime_chestplate": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:travelers_chestplate": [
+      1498,
+      -3.984
+    ],
+    "thermal:beekeeper_chestplate": [
+      1313,
+      -2.504
+    ],
+    "thermal:diving_chestplate": [
+      976,
+      0.192
+    ],
+    "thermal:hazmat_chestplate": [
+      1055,
+      -0.44
+    ]
+  },
+  "HEAD": {
+    "alexsmobs:fedora": [
+      1186,
+      -1.488
+    ],
+    "alexsmobs:frontier_cap": [
+      840,
+      1.28
+    ],
+    "alexsmobs:froststalker_helmet": [
+      880,
+      0.96
+    ],
+    "alexsmobs:moose_headgear": [
+      887,
+      0.904
+    ],
+    "alexsmobs:novelty_hat": [
+      1189,
+      -1.512
+    ],
+    "alexsmobs:sombrero": [
+      1137,
+      -1.096
+    ],
+    "alexsmobs:spiked_turtle_shell": [
+      673,
+      2.616
+    ],
+    "botania:elementium_helmet": [
+      704,
+      2.368
+    ],
+    "botania:manasteel_helmet": [
+      729,
+      2.168
+    ],
+    "botania:manaweave_helmet": [
+      1331,
+      -2.648
+    ],
+    "botania:terrasteel_helmet": [
+      1,
+      8.312
+    ],
+    "create:diving_helmet": [
+      1141,
+      -1.128
+    ],
+    "gildedarmor:gilded_enderite_helmet": [
+      1,
+      16.808
+    ],
+    "gildedarmor:gilded_netherite_helmet": [
+      1,
+      8.52
+    ],
+    "minecraft:chainmail_helmet": [
+      1098,
+      -0.784
+    ],
+    "minecraft:diamond_helmet": [
+      444,
+      4.448
+    ],
+    "minecraft:golden_helmet": [
+      1201,
+      -1.608
+    ],
+    "minecraft:iron_helmet": [
+      954,
+      0.368
+    ],
+    "minecraft:leather_helmet": [
+      1356,
+      -2.848
+    ],
+    "minecraft:netherite_helmet": [
+      361,
+      5.112
+    ],
+    "minecraft:shulker_shell": [
+      1328,
+      -2.624
+    ],
+    "minecraft:turtle_helmet": [
+      865,
+      1.08
+    ],
+    "quark:forgotten_hat": [
+      1356,
+      -2.848
+    ],
+    "scuba_gear:scuba_helmet": [
+      954,
+      0.368
+    ],
+    "tconstruct:plate_helmet": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:slime_helmet": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:travelers_helmet": [
+      1498,
+      -3.984
+    ],
+    "thermal:beekeeper_helmet": [
+      1313,
+      -2.504
+    ],
+    "thermal:diving_helmet": [
+      976,
+      0.192
+    ],
+    "thermal:hazmat_helmet": [
+      1055,
+      -0.44
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+#If this is set to false, items will not be destroyed regardless of what the gamerule mobGriefing is set to
+onlyWithMobGriefingGamerule = false
+

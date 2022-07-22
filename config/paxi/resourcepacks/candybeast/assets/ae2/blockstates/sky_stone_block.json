@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "ae2:block/sky_stone_block"
+      },
+      {
+        "model": "ae2:block/sky_stone_block",
+        "x": 90
+      },
+      {
+        "model": "ae2:block/sky_stone_block",
+        "x": 180
+      },
+      {
+        "model": "ae2:block/sky_stone_block",
+        "x": 270
+      },
+      {
+        "model": "ae2:block/sky_stone_block",
+        "y": 90
+      },
+      {
+        "model": "ae2:block/sky_stone_block",
+        "y": 90,
+        "x": 90
+      },
+      {
+        "model": "ae2:block/sky_stone_block",
+        "y": 90,
+        "x": 180
+      },
+      {
+        "model": "ae2:block/sky_stone_block",
+        "y": 90,
+        "x": 270
+      },
+      {
+        "model": "ae2:block/sky_stone_block",
+        "y": 180
+      },
+      {
+        "model": "ae2:block/sky_stone_block",
+        "y": 180,
+        "x": 90
+      },
+      {
+        "model": "ae2:block/sky_stone_block",
+        "y": 180,
+        "x": 180
+      },
+      {
+        "model": "ae2:block/sky_stone_block",
+        "y": 180,
+        "x": 270
+      },
+      {
+        "model": "ae2:block/sky_stone_block",
+        "y": 270
+      },
+      {
+        "model": "ae2:block/sky_stone_block",
+        "y": 270,
+        "x": 90
+      },
+      {
+        "model": "ae2:block/sky_stone_block",
+        "y": 270,
+        "x": 180
+      },
+      {
+        "model": "ae2:block/sky_stone_block",
+        "y": 270,
+        "x": 270
+      }
+    ]
+  }
+}

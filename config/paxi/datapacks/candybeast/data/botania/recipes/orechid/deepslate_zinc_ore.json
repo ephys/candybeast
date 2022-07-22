@@ -1,0 +1,9 @@
+{
+  "type": "botania:orechid",
+  "input": "minecraft:deepslate",
+  "output": {
+    "type": "block",
+    "block": "create:deepslate_zinc_ore"
+  },
+  "weight": 250
+}
