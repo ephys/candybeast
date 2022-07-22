@@ -1511,7 +1511,7 @@
 
 [experimental]
 	"Zombie Villagers On Normal" = true
-	"Spawner Replacer" = false
+	"Spawner Replacer" = true
 	"Overlay Shader" = false
 	"Narrator Readout" = false
 	"Game Nerfs" = false
@@ -1521,7 +1521,7 @@
 	[experimental.spawner_replacer]
 		#Mobs to be replaced with other mobs.
 		#Format is: "mob1,mob2", i.e. "minecraft:spider,minecraft:skeleton"
-		"Replace Mobs" = []
+		"Replace Mobs" = ["alexsmobs:centipede_head,minecraft:cave_spider", "alexsmobs:leafcutter_ant,minecraft:spider", "alexsmobs:crimson_mosquito,minecraft:witch"]
 
 	[experimental.overlay_shader]
 		#Sets the name of the shader to load on a regular basis. This can load any shader the Camera module can (and requires the Camera module enabled to apply said logic).

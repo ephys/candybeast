@@ -3,7 +3,7 @@
 
 	[Enchantments."Magic Protection"]
 		#If TRUE, the Magic Protection Enchantment is available for Armor and Horse Armor.
-		Enable = true
+		Enable = false
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = false
 		#This option adjusts the maximum allowable level for the Enchantment.
@@ -90,7 +90,7 @@
 
 	[Enchantments.Vitality]
 		#If TRUE, the Vitality Enchantment is available for Chestplates.
-		Enable = true
+		Enable = false
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
@@ -233,7 +233,7 @@
 
 	[Enchantments.Volley]
 		#If TRUE, the Volley Enchantment is available for various Bows.
-		Enable = true
+		Enable = false
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = false
 
@@ -274,7 +274,7 @@
 
 	[Enchantments.Soulbound]
 		#If TRUE, the Soulbound Enchantment is available.
-		Enable = true
+		Enable = false
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = false
 		#This option adjusts the maximum allowable level for the Enchantment. If permanent, this setting is ignored.

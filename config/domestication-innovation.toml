@@ -55,7 +55,7 @@
 	#true if poison resistance enchant is enabled, false if disabled
 	poison_resistance_enabled = true
 	#true if chain lightning enchant is enabled, false if disabled
-	chain_lightning_enabled = true
+	chain_lightning_enabled = false
 	#true if speedster enchant is enabled, false if disabled
 	speedster_enabled = true
 	#true if frost fang enchant is enabled, false if disabled
@@ -69,7 +69,7 @@
 	#true if health siphon enchant is enabled, false if disabled
 	health_siphon_enabled = true
 	#true if bubbling enchant is enabled, false if disabled
-	bubbling_enabled = true
+	bubbling_enabled = false
 	#true if herding enchant is enabled, false if disabled
 	herding_enabled = true
 	#true if amphibious enchant is enabled, false if disabled
@@ -81,21 +81,21 @@
 	#true if charisma enchant is enabled, false if disabled
 	charisma_enabled = true
 	#true if shadow hands enchant is enabled, false if disabled
-	shadow_hands_enabled = true
+	shadow_hands_enabled = false
 	#true if disc jockey enchant is enabled, false if disabled
 	disc_jockey_enabled = true
 	#true if defusal enchant is enabled, false if disabled
 	defusal_enabled = true
 	#true if warping bite enchant is enabled, false if disabled
-	warping_bite_enabled = true
+	warping_bite_enabled = false
 	#true if ore scenting enchant is enabled, false if disabled
-	ore_scenting_enabled = true
+	ore_scenting_enabled = false
 	#true if gluttonous enchant is enabled, false if disabled
 	gluttonous_enabled = true
 	#true if psychic wall enchant is enabled, false if disabled
 	psychic_wall_enabled = true
 	#true if intimidation enchant is enabled, false if disabled
-	intimidation_enabled = true
+	intimidation_enabled = false
 	#true if tethered teleport enchant is enabled, false if disabled
 	tethered_teleport_enabled = true
 	#true if undead curse enchant is enabled, false if disabled

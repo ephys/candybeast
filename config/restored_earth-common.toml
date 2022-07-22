@@ -22,7 +22,7 @@
 	#Will the Skeleton Wolf spawn in the wild
 	skeletonWolfSpawn = true
 	#Will the Bone Spider spawn in the wild
-	boneSpiderSpawn = true
+	boneSpiderSpawn = false
 	#Will the Moolip spawn in the wild
 	moolipSpawn = true
 	#Will the Cluckshroom spawn in the wild
