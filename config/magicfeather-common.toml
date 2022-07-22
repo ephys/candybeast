@@ -1,3 +1,6 @@
+#When losing the ability to fly, should the player receive a slow fall effect or simply negate the fall damage?
+#Allowed Values: SLOW_FALL, NEGATE_FALL_DAMAGE
+too_close_to_the_sun_behavior = "NEGATE_FALL_DAMAGE"
 
 [range_computation]
 	#How many blocks are added to the range per level?
