@@ -3,7 +3,7 @@
 [general]
 	#Sets the percentage the mod checks for [default: 10] (1 to 100)
 	#Range: 1 ~ 100
-	Percentage = 10
+	Percentage = 1
 	#Change this option to let it not display a chat message (if you have sound enabled) [default: true]
 	SendMessage = true
 	#Dictates if it should also actively check armor [default: false]
@@ -12,7 +12,7 @@
 	#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET
 	SentMessageColor = "YELLOW"
 	#Change this option to let it play a sound (configurable in the sound tab) [default: false]
-	PlaySound = true
+	PlaySound = false
 
 #Sound settings
 [sound]
