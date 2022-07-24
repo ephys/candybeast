@@ -5,7 +5,7 @@
 #Setting this to 10000 will completely prevent artifacts from spawning
 #When set to 0, every container that can contain artifacts will contain an artifact
 #Range: 0.0 ~ 10000.0
-artifact_rarity = 1.0
+artifact_rarity = 2.0
 
 [campsite]
 	#List of biome IDs in which campsites are not allowed to generate
@@ -18,10 +18,10 @@ artifact_rarity = 1.0
 	#With a rarity of 10000, no campsites will generate
 	#Not every attempt at generating a campsite succeeds, this also depends on the density and shape of caves
 	#Range: 1 ~ 10000
-	rarity = 5
+	rarity = 10
 	#Probability that a campsite has a mimic instead of a chest
 	#Range: 0.0 ~ 1.0
-	mimic_chance = 0.3
+	mimic_chance = 0.05
 	#Whether to use wooden chests from other mods when generating campsites
 	#(keeping this enabled may make it easier to distinguish them from mimics)
 	use_modded_chests = true
