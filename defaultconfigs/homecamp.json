@@ -1,0 +1,6 @@
+{
+  "soulCampfiresOnly": false,
+  "extinguishOnSpawn": true,
+  "requireLitCampfire": true,
+  "noMobSpawnRegion": 8
+}

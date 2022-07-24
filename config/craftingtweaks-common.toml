@@ -1,7 +1,7 @@
 
 [common]
 	#Set this to true if you want the (de)compress feature to work outside of crafting GUIs (only works if installed on server)
-	compressAnywhere = false
+	compressAnywhere = true
 	#A list of modid:name entries that will not be crafted by the compress key.
 	compressBlacklist = ["minecraft:sandstone", "minecraft:iron_trapdoor"]
 
@@ -13,7 +13,7 @@
 	#Set this to true if you don't want the tweak buttons' tooltips to show.
 	hideButtonTooltips = false
 	#We both know JEI is much better. This option hides Vanilla's crafting book button instead of moving it.
-	hideVanillaCraftingGuide = false
+	hideVanillaCraftingGuide = true
 	#Set to 'DEFAULT' to enable both buttons and hotkeys. Set to 'BUTTONS' to enable buttons only. Set to 'HOTKEYS' to enable hotkeys only.
 	#Allowed Values: DEFAULT, BUTTONS, HOTKEYS, DISABLED
 	craftingTweaksMode = "DEFAULT"
