@@ -3,7 +3,7 @@
 	#List of cosmetic-only items. All items in this list will have their effects disabled
 	#To blacklist all items, use "artifacts:*"
 	#Note: blacklisting an item while it is equipped may have unintended side effects
-	cosmetics = ["artifacts:snorkel", "artifacts:everlasting_beef", "artifacts:eternal_steak", "artifacts:universal_attractor"]
+	cosmetics = ["artifacts:universal_attractor"]
 
 	[items.antidote_vessel]
 		#Affects how many times a negative effect can be shortened before breaking
@@ -87,7 +87,7 @@
 		#Affects how many times this item can be eaten before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 64
 		#Cooldown (in ticks) before the item can be eaten again
 		#Range: > 0
 		cooldown = 300
@@ -99,7 +99,7 @@
 		#Affects how many times this item can be eaten before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 64
 		#Cooldown (in ticks) before the item can be eaten again
 		#Range: > 0
 		cooldown = 300
@@ -187,7 +187,7 @@
 		#Affects how many seconds the night vision effect should apply before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 600
 
 	[items.novelty_drinking_hat]
 		#Affects how many items the player can drink or eat using the drinking hat before breaking
@@ -208,10 +208,10 @@
 		durability = 0
 		#The cooldown (in ticks) on the obsidian skull after applying fire resistance
 		#Range: > 0
-		cooldown = 1200
+		cooldown = 700
 		#The duration (in ticks) of the fire resistance effect applied by the obsidian skull after taking fire damage
 		#Range: > 0
-		fire_resistance_duration = 600
+		fire_resistance_duration = 100
 
 	[items.panic_necklace]
 		#Affects how many times the necklace's effect can be applied
@@ -268,7 +268,7 @@
 		#Affects how many seconds the invisibility effect should apply before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 1200
 
 	[items.shock_pendant]
 		#Affects how many times the pendant's effect can be applied before breaking
@@ -283,7 +283,7 @@
 		#Affects how many seconds the player can stay underwater using the snorkel before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 600
 
 	[items.steadfast_spikes]
 		#Affects how many times the player can be hit while wearing steadfast spikes before breaking
