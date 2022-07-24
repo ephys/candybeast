@@ -129,3 +129,23 @@ mods.jei.JEI.hideIngredient(<item:ae2:sky_compass>);
 // make spawners very hard to break but not unbreakable so they can be moved by pistons
 
 <blockstate:minecraft:spawner>.setDestroySpeed(10000F);
+
+// boost durability of golden items
+
+<item:minecraft:golden_pickaxe>.maxDamage = 250;
+<item:minecraft:golden_shovel>.maxDamage = 250;
+<item:minecraft:golden_axe>.maxDamage = 250;
+<item:minecraft:golden_hoe>.maxDamage = 250;
+<item:minecraft:golden_sword>.maxDamage = 250;
+<item:farmersdelight:golden_knife>.maxDamage = 250;
+
+<item:minecraft:golden_helmet>.maxDamage = 165;
+<item:minecraft:golden_chestplate>.maxDamage = 240;
+<item:minecraft:golden_leggings>.maxDamage = 225;
+<item:minecraft:golden_boots>.maxDamage = 195;
+
+// boost time it takes to break netherrack (still very fragile against explosions)
+
+<blockstate:minecraft:netherrack>.setDestroySpeed(1F);
+<blockstate:minecraft:crimson_nylium>.setDestroySpeed(1.1F);
+<blockstate:minecraft:warped_nylium>.setDestroySpeed(1.1F);
