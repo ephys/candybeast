@@ -23,7 +23,7 @@
 	#Set to true to have champions generate a colored particle effect indicating their rank
 	showParticles = true
 	#Set to true to show champion tier and affixes in The One Probe overlay
-	enableTOPIntegration = true
+	enableTOPIntegration = false
 
 [loot]
 	#Set to true to allow fake players to generate champion loot
