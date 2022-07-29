@@ -14,7 +14,7 @@
 		# It is recommended to disable these, since the Small Dungeons are very similar in design.
 		# Default: true
 		#
-		"Remove Vanilla Dungeons" = true
+		"Remove Vanilla Dungeons" = false
 		# Some dungeons can rarely spawn Nether-related blocks such as soul sand, soul campfires, and soul lanterns.
 		# Note that the blocks will be purely decorative - nothing progression-breaking like Ancient Debris.
 		# Set this to false to prevent any Nether-related blocks from spawning in dungeons.
