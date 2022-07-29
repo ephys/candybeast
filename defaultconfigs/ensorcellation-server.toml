@@ -344,7 +344,7 @@
 		#Range: 1 ~ 10
 		"Max Level" = 2
 		#If TRUE, the Frost Walker Enchantment will also chill Lava into Glossed Magma.
-		"Freeze Lava" = true
+		"Freeze Lava" = false
 
 	[Overrides.Knockback]
 		#If TRUE, the Knockback Enchantment is replaced with a more configurable version which works on more items, such as Axes.
