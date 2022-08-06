@@ -7,18 +7,6 @@
     {
       "structure": "repurposed_structures:temple_nether_basalt",
       "weight": 1
-    },
-    {
-      "structure": "repurposed_structures:temple_nether_warped",
-      "weight": 1
-    },
-    {
-      "structure": "repurposed_structures:temple_nether_crimson",
-      "weight": 1
-    },
-    {
-      "structure": "repurposed_structures:temple_nether_soul",
-      "weight": 1
     }
   ],
   "placement": {

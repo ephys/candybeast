@@ -7,7 +7,7 @@
 	#This option will hide your offhand item. It can be toggled via an optional key binding.
 	hideOffhandItem = false
 	#This option will hide your own potion particle effects for your client (other players will still see them).
-	hideOwnParticleEffects = false
+	hideOwnParticleEffects = true
 	#This option will hide your shield unless you are holding a weapon.
 	hideShieldUnlessHoldingWeapon = false
 	#This prevents torches from being placed from your offhand at all.
@@ -19,7 +19,7 @@
 	#This prevents torches from being placed from your off hand if you have an empty main hand.
 	noOffhandTorchWithEmptyHand = false
 	#This restricts torches to be placed from the offhand only when you're holding a tool in your main hand.
-	offhandTorchWithToolOnly = false
+	offhandTorchWithToolOnly = true
 	#This option will disable step assist added by other mods.
 	disableStepAssist = false
 	#This option will disable log stripping.
