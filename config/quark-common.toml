@@ -527,6 +527,11 @@
 	[tweaks.campfires_boost_elytra]
 		"Boost Strength" = 0.5
 		"Max Speed" = 1.0
+		#This feature disables itself if any of the following mods are loaded: 
+		# - aileron
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
 
 	[tweaks.automatic_recipe_unlock]
 		#A list of recipe names that should NOT be added in by default
@@ -538,6 +543,13 @@
 
 	[tweaks.skull_pikes]
 		"Pike Range" = 5.0
+
+	[tweaks.better_elytra_rocket]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - aileron
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
 
 [world]
 	"Spiral Spires" = true

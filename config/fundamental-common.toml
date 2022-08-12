@@ -4,6 +4,8 @@ use_axe_on_sticky_piston = true
 use_slime_on_piston = true
 #Add a crafting table for each vanilla wood variant
 crafting_tables = true
+#Guardians turn into Elder Guardians when struck by lightning.
+renewable_elder_guardians = true
 
 [lodestone]
 	#Adds a lodestone proxy that when used sets your compass to another lodestone.
@@ -55,4 +57,12 @@ crafting_tables = true
 	min = 2
 	#Randomizes the height of cacti.
 	enabled = true
+
+[bonemeal]
+	#Make sugar canes grow if bone meal is used on it.
+	sugarCane = true
+	#Make cactus grow if bone meal is used on it.
+	cactus = true
+	#Spawn a new lily pads nearby by using bone meal on one.
+	lilyPad = true
 
