@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "minecraft:beacon",
+    "minecraft:smithing_table",
     "minecraft:glowstone",
     "minecraft:glass",
     "minecraft:tinted_glass",
