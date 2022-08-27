@@ -132,7 +132,7 @@ mods.jei.JEI.hideIngredient(<item:ae2:sky_compass>);
 
 // make obsidian easier to break
 
-<blockstate:minecraft:spawner>.setDestroySpeed(25F);
+<blockstate:minecraft:obsidian>.setDestroySpeed(25F);
 
 // boost durability of golden items
 
