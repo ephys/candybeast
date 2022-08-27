@@ -6,6 +6,16 @@ use_slime_on_piston = true
 crafting_tables = true
 #Guardians turn into Elder Guardians when struck by lightning.
 renewable_elder_guardians = true
+#How many layers can be added to a banner. Survival vanilla is 6, command block vanilla is 16.
+#
+#Compatibility Note: Quark implements this too, but forgot to add support to the Banner Duplication recipe.
+#To remain compatible with Quark, we disable this feature if Quark is detected except for the Banner Duplication Recipe.
+#For this reason, we recommend using the same value for both mods.
+#
+#Range: 1 ~ 16
+banner_layer_limit = 16
+#Changes how a bed reachability is determined so the bed is never considered too far if the player can interact with it.
+bed_never_too_far = false
 
 [lodestone]
 	#Adds a lodestone proxy that when used sets your compass to another lodestone.
