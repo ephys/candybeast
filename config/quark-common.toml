@@ -1555,7 +1555,7 @@
 		"Disable Wool Drops" = true
 
 	[experimental.enchantments_begone]
-		"Enchantments To Begone" = ["ensorcellation:magic_protection", "domesticationinnovation:bubbling", "domesticationinnovation:shadow_hands", "domesticationinnovation:chain_lightning", "domesticationinnovation:warping_bite", "domesticationinnovation:ore_scenting", "domesticationinnovation:psychic_wall", "domesticationinnovation:blight_curse"]
+		"Enchantments To Begone" = ["ensorcellation:magic_protection", "ensorcellation:excavating", "domesticationinnovation:bubbling", "domesticationinnovation:shadow_hands", "domesticationinnovation:chain_lightning", "domesticationinnovation:warping_bite", "domesticationinnovation:ore_scenting", "domesticationinnovation:psychic_wall", "domesticationinnovation:blight_curse"]
 
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0

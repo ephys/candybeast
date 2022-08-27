@@ -197,7 +197,7 @@
 
 	[Enchantments.Excavating]
 		#If TRUE, the Excavating Enchantment is available for various Tools.
-		Enable = true
+		Enable = false
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
 		Treasure = true
 
