@@ -76,6 +76,15 @@ mods.jei.JEI.hideCategory("thermal:insolator");
 mods.jei.JEI.hideCategory("thermal:insolator_catalyst");
 mods.jei.JEI.hideIngredient(<item:thermal:machine_insolator>);
 
+craftingTable.remove(<item:thermal:redstone_mushroom_spores>);
+craftingTable.remove(<item:thermal:gunpowder_mushroom_spores>);
+craftingTable.remove(<item:thermal:slime_mushroom_spores>);
+craftingTable.remove(<item:thermal:glowstone_mushroom_spores>);
+mods.jei.JEI.hideIngredient(<item:thermal:redstone_mushroom_spores>);
+mods.jei.JEI.hideIngredient(<item:thermal:gunpowder_mushroom_spores>);
+mods.jei.JEI.hideIngredient(<item:thermal:slime_mushroom_spores>);
+mods.jei.JEI.hideIngredient(<item:thermal:glowstone_mushroom_spores>);
+
 craftingTable.remove(<item:wstweaks:lava_blade>);
 craftingTable.remove(<item:wstweaks:blaze_blade>);
 mods.jei.JEI.hideIngredient(<item:wstweaks:lava_blade>);
