@@ -1,0 +1,34 @@
+{
+  "type": "forge:dough/wheat",
+  "ingredients": [
+    {
+      "tag": "farmersdelight:wheat_dough"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    [
+      {
+        "tag": "forge:raw_chicken"
+      },
+      {
+        "tag": "forge:raw_pork"
+      },
+      {
+        "tag": "forge:raw_beef"
+      },
+      {
+        "item": "minecraft:brown_mushroom"
+      }
+    ]
+  ],
+  "result": {
+    "item": "farmersdelight:dumplings",
+    "count": 2
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}
