@@ -18,7 +18,7 @@
   mobPermission = "BLACKLIST"
 [[affixes]]
   identifier = "desecrating"
-  enabled = true
+  enabled = false
   minTier = 1
   mobList = []
   mobPermission = "BLACKLIST"
@@ -36,7 +36,7 @@
   mobPermission = "BLACKLIST"
 [[affixes]]
   identifier = "infested"
-  enabled = true
+  enabled = false
   minTier = 1
   mobList = []
   mobPermission = "BLACKLIST"

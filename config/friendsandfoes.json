@@ -4,6 +4,7 @@
   "generateCopperGolemAreaStructure": true,
   "enableGlare": false,
   "enableGlareSpawn": false,
+  "enableGlareGriefing": true,
   "glareSpawnWeight": 4,
   "glareSpawnMinGroupSize": 1,
   "glareSpawnMaxGroupSize": 1,
