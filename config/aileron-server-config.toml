@@ -7,3 +7,7 @@
 		#Smoke Stack Charge Ticks
 		smokeStackChargeTicks = 20
 
+	["Aileron Forge Config".Fireworks]
+		#Enable changes to fireworks
+		doFireworkChanges = true
+
