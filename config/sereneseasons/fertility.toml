@@ -3,7 +3,7 @@
 	#Whether crops are affected by seasons.
 	seasonal_crops = false
 	#Whether to include tooltips on crops listing which seasons they're fertile in. Note: This only applies to listed crops.
-	crop_tooltips = truefalse
+	crop_tooltips = false
 	#How crops behave when out of season.
 	#0 = Grow slowly
 	#1 = Can't grow

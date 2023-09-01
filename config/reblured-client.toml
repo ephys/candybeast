@@ -1,5 +1,5 @@
 #A list of classes to be excluded from the blur shader.
-guiExclusions = ["net.minecraft.client.gui.screens.ChatScreen", "net.minecraft.client.gui.screens.InBedChatScreen"]
+guiExclusions = ["net.minecraft.client.gui.screens.InBedChatScreen", "net.minecraft.client.gui.screens.ChatScreen"]
 #The time it takes for the blur to fade in, in ms.
 #Range: 0 ~ 10000
 fadeTime = 100
