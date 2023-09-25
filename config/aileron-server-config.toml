@@ -1,13 +1,13 @@
 
 ["Aileron Forge Config"]
 
+	["Aileron Forge Config".Fireworks]
+		#Enable changes to fireworks
+		doFireworkChanges = false
+
 	["Aileron Forge Config".Campfires]
 		#Push players
 		campfiresPushPlayers = true
 		#Smoke Stack Charge Ticks
 		smokeStackChargeTicks = 20
-
-	["Aileron Forge Config".Fireworks]
-		#Enable changes to fireworks
-		doFireworkChanges = true
 

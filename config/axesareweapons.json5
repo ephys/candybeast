@@ -7,5 +7,10 @@
 	"enableDamageInEnchantingTable": true,
 	"allowSilkTouchWithLooting": true,
 	"fastCobWebBreaking": false,
-	"allToolsAreWeapons": false
+	"pickaxesAreWeapons": false,
+	"shovelsAreWeapons": false,
+	"hoesAreWeapons": false,
+	"rangedWeaponsAreWeapons": false,
+	"enableLootingForRangedWeapons": false,
+	"weaponIds": []
 }

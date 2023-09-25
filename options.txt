@@ -13,7 +13,7 @@ realmsNotifications:true
 reducedDebugInfo:false
 showSubtitles:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -24,20 +24,20 @@ fov:0.625
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:1.0
-renderDistance:11
+renderDistance:16
 simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:4
 particles:0
-maxFps:260
+maxFps:60
 difficulty:2
 graphicsMode:1
 ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:7
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","fundamental:mossy_cobblestone","fundamental:mossy_stone_bricks","Supplementaries Generated Pack","quark:emote_resources","YUNGs-Better-Dungeons-Resources-1.0.zip","eatinganimations_compat","Fancy,+GUI+Overhaul+v0.1.1.zip","VanillaTweaks_r599235.zip","BotaniaRevamped_1.1.0.zip","candybeast"]
-incompatibleResourcePacks:["fundamental:mossy_cobblestone","fundamental:mossy_stone_bricks","quark:emote_resources","Fancy,+GUI+Overhaul+v0.1.1.zip","BotaniaRevamped_1.1.0.zip"]
+resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","quark:emote_resources","YUNGs-Better-Dungeons-Resources-1.0.zip","eatinganimations_compat","VanillaTweaks_r599235.zip","BotaniaRevamped_1.1.0.zip","candybeast","Copper+Color+Fix+3.0.zip","Fancy+Boss+Bars+v0.1.1.zip","Fancy,+GUI+Overhaul+v0.1.2.7.zip","Forgery","Forgery grayscale","Forgery oak_is_apple","Pretty_Pipez.zip","Visual+Titles.zip"]
+incompatibleResourcePacks:["quark:emote_resources","BotaniaRevamped_1.1.0.zip","Copper+Color+Fix+3.0.zip","Fancy+Boss+Bars+v0.1.1.zip","Fancy,+GUI+Overhaul+v0.1.2.7.zip","Forgery"]
 lastServer:
 lang:en_us
 soundDevice:
@@ -66,11 +66,11 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
-hideBundleTutorial:false
+joinedFirstServer:true
+hideBundleTutorial:true
 syncChunkWrites:false
 showAutosaveIndicator:true
 allowServerListing:true
@@ -252,13 +252,13 @@ key_key.paraglider.paragliderSettings:key.keyboard.p:CONTROL
 key_key.cofh.mode_change_increment:key.keyboard.v
 key_key.cofh.mode_change_decrement:key.keyboard.b
 key_key.configured.open_mod_list:key.keyboard.unknown
-soundCategory_master:1.0
+soundCategory_master:0.2975352
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
 soundCategory_hostile:1.0
-soundCategory_neutral:1.0
+soundCategory_neutral:0.0528169
 soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0

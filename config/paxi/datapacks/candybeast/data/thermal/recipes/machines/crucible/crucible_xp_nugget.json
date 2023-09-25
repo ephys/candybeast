@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "tag": "create:experience_nugget"
+  },
+  "result": [
+    {
+      "fluid": "thermal:ender",
+      "amount": 125
+    }
+  ],
+  "energy": 10000
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ILI"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/invar"
+    },
+    "L": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "result": {
+    "item": "pipez:item_pipe",
+    "count": 4
+  }
+}

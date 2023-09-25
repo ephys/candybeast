@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RUR",
+    "DRD"
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:ingots/brass"
+    },
+    "R": {
+      "tag": "forge:nuggets/gold"
+    },
+    "U": {
+      "item": "pipez:improved_upgrade"
+    }
+  },
+  "result": {
+    "item": "pipez:advanced_upgrade",
+    "count": 1
+  }
+}

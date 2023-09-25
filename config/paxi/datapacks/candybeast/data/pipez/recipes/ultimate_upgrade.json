@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RUR",
+    "NRN"
+  ],
+  "key": {
+    "N": {
+      "tag": "forge:ingots/invar"
+    },
+    "R": {
+      "tag": "forge:nuggets/brass"
+    },
+    "U": {
+      "item": "pipez:advanced_upgrade"
+    }
+  },
+  "result": {
+    "item": "pipez:ultimate_upgrade",
+    "count": 1
+  }
+}

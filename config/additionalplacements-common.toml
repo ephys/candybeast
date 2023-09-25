@@ -23,6 +23,13 @@
 	disable_weighted_pressure_plate_placement = false
 	#Show tooltip when a block has additional placements
 	tooltip = true
+	#Check for and notify of mismatching tags. Only works when the same option in the server/world config is true.
+	check_tags = true
+	#Log missing or additional tags on generated blocks.
+	log_tag_mismatch = false
+	#The thread priority of the mismatched tag checker. 1 is lowest, 10 is highest, 5 is normal.
+	#Range: 1 ~ 10
+	checker_priority = 1
 	#Blacklist for blocks to not have generated placement variants
 	blacklist = []
 	#Blacklist for mods to not have generated placement variants

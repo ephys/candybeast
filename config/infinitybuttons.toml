@@ -1,3 +1,7 @@
-alarmSound = true
+muteAlarmSound = false
+alarmSoundType = "RANGE"
+alarmSoundRange = 6
+alarmVillagerPanic = true
 tooltips = true
 diamondParticles = true
+forceJadeHiding = true

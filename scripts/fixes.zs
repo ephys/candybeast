@@ -1,6 +1,9 @@
-// Disable rod of the skies
+// Disable OP botania features
 
 craftingTable.remove(<item:botania:tornado_rod>);
+mods.jei.JEI.hideIngredient(<item:botania:tornado_rod>);
+craftingTable.remove(<item:botania:divining_rod>);
+mods.jei.JEI.hideIngredient(<item:botania:divining_rod>);
 
 // Disable copper overhaul duplicates
 
@@ -85,6 +88,12 @@ mods.jei.JEI.hideIngredient(<item:thermal:gunpowder_mushroom_spores>);
 mods.jei.JEI.hideIngredient(<item:thermal:slime_mushroom_spores>);
 mods.jei.JEI.hideIngredient(<item:thermal:glowstone_mushroom_spores>);
 
+craftingTable.remove(<item:thermal:device_hive_extractor>);
+mods.jei.JEI.hideIngredient(<item:thermal:device_hive_extractor>);
+
+craftingTable.remove(<item:thermal:xp_crystal>);
+mods.jei.JEI.hideIngredient(<item:thermal:xp_crystal>);
+
 craftingTable.remove(<item:wstweaks:lava_blade>);
 craftingTable.remove(<item:wstweaks:blaze_blade>);
 mods.jei.JEI.hideIngredient(<item:wstweaks:lava_blade>);
@@ -162,3 +171,23 @@ mods.jei.JEI.hideIngredient(<item:ae2:sky_compass>);
 <blockstate:minecraft:netherrack>.setDestroySpeed(1F);
 <blockstate:minecraft:crimson_nylium>.setDestroySpeed(1.1F);
 <blockstate:minecraft:warped_nylium>.setDestroySpeed(1.1F);
+
+// Redundant with thermal
+
+craftingTable.remove(<item:pipez:fluid_pipe>);
+mods.jei.JEI.hideIngredient(<item:pipez:fluid_pipe>);
+craftingTable.remove(<item:pipez:energy_pipe>);
+mods.jei.JEI.hideIngredient(<item:pipez:energy_pipe>);
+craftingTable.remove(<item:pipez:gas_pipe>);
+mods.jei.JEI.hideIngredient(<item:pipez:gas_pipe>);
+craftingTable.remove(<item:pipez:universal_pipe>);
+mods.jei.JEI.hideIngredient(<item:pipez:universal_pipe>);
+
+craftingTable.remove(<item:pipez:wrench>);
+mods.jei.JEI.hideIngredient(<item:pipez:wrench>);
+
+craftingTable.remove(<item:ae2:certus_quartz_wrench>);
+mods.jei.JEI.hideIngredient(<item:ae2:certus_quartz_wrench>);
+
+craftingTable.remove(<item:ae2:nether_quartz_wrench>);
+mods.jei.JEI.hideIngredient(<item:ae2:nether_quartz_wrench>);
