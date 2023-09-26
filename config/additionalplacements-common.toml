@@ -24,7 +24,7 @@
 	#Show tooltip when a block has additional placements
 	tooltip = true
 	#Check for and notify of mismatching tags. Only works when the same option in the server/world config is true.
-	check_tags = true
+	check_tags = false
 	#Log missing or additional tags on generated blocks.
 	log_tag_mismatch = false
 	#The thread priority of the mismatched tag checker. 1 is lowest, 10 is highest, 5 is normal.
