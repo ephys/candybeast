@@ -5,4 +5,6 @@
 	enableConfigGui = true
 	#Allow Armor Stand to be renamed using name tags
 	enableNameTags = true
+	#Allow scrolling to increase / decrease an angle value in the posing screen
+	allowScrolling = true
 
