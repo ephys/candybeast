@@ -79,7 +79,7 @@
     "cave_lush": {
       "overall": 1,
       "cave-lush": 1,
-      "frog": 1
+      "frog": 0
     },
     "surface": {
       "overall": 1
@@ -93,16 +93,16 @@
     },
     "forest": {
       "overall": 1,
-      "bird-ambience": 1,
-      "owl": 1
+      "bird-ambience": 0,
+      "owl": 0
     },
     "forest_cold": {
       "overall": 1,
-      "crow": 1
+      "crow": 0
     },
     "taiga": {
       "overall": 1,
-      "bird-ambience-huge": 1
+      "bird-ambience-huge": 0
     },
     "highland": {
       "overall": 1,
@@ -115,46 +115,46 @@
     },
     "forest_roofed": {
       "overall": 1,
-      "bird-ambience-spooky": 1
+      "bird-ambience-spooky": 0
     },
     "grass": {
       "overall": 1,
-      "cricket": 1,
-      "cricket-night": 1,
-      "cicadas-night": 1
+      "cricket": 0,
+      "cricket-night": 0,
+      "cicadas-night": 0
     },
     "plains": {
       "overall": 1,
-      "cricket": 1,
-      "cricket-night": 1,
-      "cicadas-night": 1
+      "cricket": 0,
+      "cricket-night": 0,
+      "cicadas-night": 0
     },
     "savanna": {
       "overall": 1,
-      "cricket": 1,
-      "cicadas": 1,
-      "cicadas-desert": 1,
-      "cricket-warm-night": 1,
-      "wolf": 1,
-      "bird-warm": 1
+      "cricket": 0,
+      "cicadas": 0,
+      "cicadas-desert": 0,
+      "cricket-warm-night": 0,
+      "wolf": 0,
+      "bird-warm": 0
     },
     "desert": {
       "overall": 1,
-      "cicadas-desert": 1,
+      "cicadas-desert": 0,
       "light-wind": 1
     },
     "swamp": {
       "overall": 1,
-      "cricket-swamp": 1,
-      "cricket-warm-night": 1,
+      "cricket-swamp": 0,
+      "cricket-warm-night": 0,
       "frog": 1
     },
     "jungle": {
       "overall": 1,
-      "cricket-jungle": 1,
-      "cricket-jungle-night": 1,
-      "bird-ambience-jungle": 1,
-      "bird-ambience-jungle-night": 1
+      "cricket-jungle": 0,
+      "cricket-jungle-night": 0,
+      "bird-ambience-jungle": 0,
+      "bird-ambience-jungle-night": 0
     },
     "cold": {
       "overall": 1,
@@ -167,8 +167,8 @@
     "beach": {
       "overall": 1,
       "beach": 1,
-      "seagull": 1,
-      "seagull-long": 1
+      "seagull": 0,
+      "seagull-long": 0
     },
     "ocean": {
       "overall": 1,
@@ -177,8 +177,8 @@
     },
     "mushroom_fields": {
       "overall": 1,
-      "cicadas-mushroom-fields": 1,
-      "special-mushroom-fields": 1
+      "cicadas-mushroom-fields": 0,
+      "special-mushroom-fields": 0
     },
     "warden": {
       "overall": 1,

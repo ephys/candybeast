@@ -7,3 +7,7 @@
 !/icon.png
 !/options.txt
 !/mods.txt
+
+*.bak
+
+bookmarks.ini
