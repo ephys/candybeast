@@ -81,7 +81,7 @@
 
 [building]
 	"Wooden Posts" = true
-	"Vertical Slabs" = true
+	"Vertical Slabs" = false
 	"Vertical Planks" = true
 	"Variant Ladders" = true
 	"Variant Furnaces" = true

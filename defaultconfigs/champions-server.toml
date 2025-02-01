@@ -153,10 +153,10 @@
 	[affixes.plagued]
 		#The effect that will be spread
 		#Format:[effect];[power];[duration(secs)]
-		plaguedEffect = "minecraft:poison;15;1"
+		plaguedEffect = "minecraft:poison;3;1"
 		#The range of the plagued effect
 		#Range: 1 ~ 100
-		plaguedRange = 5
+		plaguedRange = 1
 
 	[affixes.reflective]
 		#The minimum percent of damage to reflect back
