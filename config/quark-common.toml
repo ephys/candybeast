@@ -236,7 +236,7 @@
 	"Inventory Sorting" = false
 	"Hotbar Changer" = false
 	"Expanded Item Interactions" = true
-	"Easy Transfering" = true
+	"Easy Transfering" = false
 	"Chests In Boats" = true
 
 	[management.quick_armor_swapping]
@@ -246,9 +246,9 @@
 		"Render Items In Chat" = true
 
 	[management.inventory_sorting]
-		"Enable Player Inventory" = true
-		"Enable Player Inventory In Chests" = true
-		"Enable Chests" = true
+		"Enable Player Inventory" = false
+		"Enable Player Inventory In Chests" = false
+		"Enable Chests" = false
 		#Play a click when sorting inventories using keybindings
 		"Satisfying Click" = true
 
@@ -258,7 +258,7 @@
 		"Enable Lava Interaction" = true
 
 	[management.easy_transfering]
-		"Enable Shift Lock" = true
+		"Enable Shift Lock" = false
 
 [tools]
 	Trowel = true
@@ -1447,7 +1447,7 @@
 	"Microcrafting Helper" = true
 	"Improved Tooltips" = true
 	"Greener Grass" = true
-	"Chest Searching" = true
+	"Chest Searching" = false
 	"Back Button Keybind" = true
 	"Auto Walk Keybind" = true
 

@@ -1,0 +1,79 @@
+{
+    "ModSettings": {
+        "include_hotbar_modifier": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "always_include_hotbar": true,
+        "highlight_foused_items_foreground": false,
+        "enable_profiles": {
+            "value": false
+        },
+        "enable_updates_check": false,
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_inventory_editor_button": {
+            "value": false
+        },
+        "enable_profiles_ui": {
+            "value": false
+        }
+    },
+    "AutoRefillSettings": {
+        "disable_for_drop_item": {
+            "value": true
+        },
+        "auto_refill_prefer_smaller_stacks": true
+    },
+    "ScrollSettings": {
+        "scroll_full_stack": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "scroll_leave_last": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "scroll_spread": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "scroll_throw": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "temp_disable": {
+            "main": {
+                "keys": ""
+            }
+        }
+    },
+    "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": "BUTTON_3"
+            }
+        },
+        "move_all_items": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "scroll_to_chest": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "scroll_to_inventory": {
+            "main": {
+                "keys": ""
+            }
+        }
+    }
+}
