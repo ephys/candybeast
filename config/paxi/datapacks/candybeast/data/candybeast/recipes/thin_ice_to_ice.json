@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ecologics:thin_ice"
+    },
+    {
+      "item": "ecologics:thin_ice"
+    },
+    {
+      "item": "ecologics:thin_ice"
+    },
+    {
+      "item": "ecologics:thin_ice"
+    }
+  ],
+  "result": {
+    "item": "minecraft:ice"
+  }
+}

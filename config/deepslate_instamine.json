@@ -1,0 +1,7 @@
+{
+  "enable_renewable_deepslate": true,
+  "renewable_deepslate_below_level": 11,
+  "enable_logs_instamine": true,
+  "enable_cobblestone_instamine": false,
+  "enable_endstone_instamine": false
+}

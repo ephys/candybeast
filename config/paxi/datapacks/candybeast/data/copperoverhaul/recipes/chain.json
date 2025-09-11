@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:nuggets/copper"
+    },
+    "1": {
+      "item": "minecraft:copper_ingot"
+    },
+    "2": {
+      "tag": "forge:nuggets/copper"
+    }
+  },
+  "result": {
+    "item": "copperoverhaul:copper_chain",
+    "count": 4
+  }
+}

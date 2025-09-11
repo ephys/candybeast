@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "copperoverhaul:copper_nugget"
+    }
+  ],
+  "result": {
+    "item": "create:copper_nugget",
+    "count": 1
+  }
+}

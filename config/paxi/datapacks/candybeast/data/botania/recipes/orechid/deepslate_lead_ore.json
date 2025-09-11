@@ -1,0 +1,9 @@
+{
+  "type": "botania:orechid",
+  "input": "minecraft:deepslate",
+  "output": {
+    "type": "block",
+    "block": "thermal:deepslate_lead_ore"
+  },
+  "weight": 465
+}

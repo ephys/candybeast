@@ -1,0 +1,9 @@
+{
+  "type": "botania:orechid",
+  "input": "minecraft:deepslate",
+  "output": {
+    "type": "block",
+    "block": "ae2:deepslate_quartz_ore"
+  },
+  "weight": 765
+}

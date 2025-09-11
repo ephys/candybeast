@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    "iCi",
+    " i "
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:nuggets/gold"
+    },
+    "C": {
+      "item": "thermal:emerald_gear"
+    }
+  },
+  "result": {
+    "item": "thermal:xp_storage_augment"
+  }
+}

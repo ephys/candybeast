@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "tag": "minecraft:wool"
+      },
+      {
+        "tag": "minecraft:wool"
+      },
+      {
+        "tag": "minecraft:wool"
+      },
+      {
+        "tag": "minecraft:wool"
+      },
+      {
+        "tag": "minecraft:wool"
+      },
+      {
+        "tag": "minecraft:wool"
+      },
+      {
+        "tag": "minecraft:wool"
+      },
+      {
+        "tag": "minecraft:wool"
+      },
+      {
+        "item": "minecraft:yellow_dye"
+      }
+    ],
+    "result": {
+      "item": "minecraft:yellow_wool",
+      "count": 8
+    }
+  }

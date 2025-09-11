@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:ice"
+    }
+  ],
+  "result": {
+    "item": "ecologics:thin_ice",
+    "count": 4
+  }
+}

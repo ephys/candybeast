@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "archers_paradox:diamond_arrow",
+          "weight": 10,
+          "functions": [{ "function": "set_count", "count": { "min": 2, "max": 7 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "archers_paradox:frost_arrow",
+          "weight": 10,
+          "functions": [{ "function": "set_count", "count": { "min": 2, "max": 7 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "archers_paradox:lightning_arrow",
+          "weight": 10,
+          "functions": [{ "function": "set_count", "count": { "min": 2, "max": 7 } }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:ravager_hide",
+          "weight": 5
+        }
+      ]
+    }
+  ]
+}

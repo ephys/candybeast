@@ -1,0 +1,9 @@
+{
+  "type": "botania:orechid",
+  "input": "minecraft:stone",
+  "output": {
+    "type": "block",
+    "block": "thermal:cinnabar_ore"
+  },
+  "weight": 7654
+}

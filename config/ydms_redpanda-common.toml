@@ -1,0 +1,19 @@
+
+#Spawn settings
+[spawnrate]
+	#
+	#Biome name where the red pandas should spawn - leave it blank if it should spawn everywhere! They can spawn only on grass block!
+	biome_name_1 = "minecraft:bamboo_jungle"
+
+	#Red Panda
+	[spawnrate.redpanda]
+		#Spawn Chance
+		#Range: > 0
+		weight = 8
+		#Spawn Minimum Count
+		#Range: > 0
+		min = 1
+		#Spawn Maximum Count
+		#Range: > 0
+		max = 3
+

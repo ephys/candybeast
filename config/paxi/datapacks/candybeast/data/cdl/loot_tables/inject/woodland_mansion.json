@@ -1,0 +1,583 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Steve's Head",
+              "entity": "this"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:depth_strider"
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Diver's Boots",
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0,
+                "max": 0.8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Sniper Bow",
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.3,
+                "max": 0.8
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:punch"
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:power"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Holy Fishing Rod",
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.3,
+                "max": 0.6
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:unbreaking"
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:luck_of_the_sea"
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:lure"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint_and_steel",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Everlasting Firestone",
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:unbreaking"
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:fire_aspect"
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:mending"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.3,
+                "max": 0.8
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Miner's Pickaxe",
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:fortune"
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:efficiency"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carved_pumpkin",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Evil Pumpkin",
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "Looks creepy..."
+              ],
+              "entity": "this",
+              "replace": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:binding_curse"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carved_pumpkin",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Transparent Pumpkin",
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "Hey! I can actually see with this one."
+              ],
+              "entity": "this",
+              "replace": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:vanishing_curse"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Hammer",
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.3,
+                "max": 0.8
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:knockback"
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:smite"
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:bane_of_arthropods"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Thief's Sword",
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.3,
+                "max": 0.8
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:looting"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:name_tag",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Dinnerbone",
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "Flip it!"
+              ],
+              "entity": "this",
+              "replace": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:name_tag",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "jeb_",
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "Rainbow it!"
+              ],
+              "entity": "this",
+              "replace": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_horse_armor",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Royal Horse Armor",
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:protection"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Stable Chestplate",
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.1,
+                "max": 0.5
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:protection"
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:blast_protection"
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:projectile_protection"
+              ]
+            }
+          ]
+        },
+
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Diving Helmet",
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.3,
+                "max": 0.8
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:aqua_affinity"
+              ]
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "botania:lexicon",
+          "weight": 10
+        },
+
+        {
+          "type": "empty",
+          "weight": 70
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "quark:ravager_hide",
+          "weight": 10
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "supplementaries:slingshot",
+          "weight": 3
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "quark:soul_compass",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "Lets you know where you died"
+              ],
+              "entity": "this",
+              "replace": false
+            }  
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "botania:slime_bottle",
+          "weight": 3
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "gadgets:biometer",
+          "weight": 3
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "gadgets:compass",
+          "weight": 3
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "gadgets:depthmeter",
+          "weight": 3
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "gadgets:clock",
+          "weight": 3
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "weight": 3
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skeleton_skull",
+          "weight": 3
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "quark:music_disc_drips",
+          "weight": 3
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "archers_paradox:spore_arrow",
+          "weight": 4,
+          "functions": [{ "function": "set_count", "count": { "min": 2, "max": 7 } }]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "copperoverhaul:copper_clock",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "Ages copper"
+              ],
+              "entity": "this",
+              "replace": false
+            }  
+          ]
+        }
+      ]
+    }
+  ]
+}
