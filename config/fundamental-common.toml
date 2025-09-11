@@ -16,6 +16,8 @@ renewable_elder_guardians = true
 banner_layer_limit = 16
 #Changes how a bed reachability is determined so the bed is never considered too far if the player can interact with it.
 bed_never_too_far = false
+#Makes saplings grow into the same trees that generate in the biome during world generation.
+saplings_grow_biome_trees = true
 
 [lodestone]
 	#Adds a lodestone proxy that when used sets your compass to another lodestone.
