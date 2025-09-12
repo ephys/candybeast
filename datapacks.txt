@@ -1,0 +1,7 @@
+config/paxi/datapacks/BetterEndCityLoot1.20.zip
+config/paxi/datapacks/BetterFishingLoot1.20.zip
+config/paxi/datapacks/ImprovedPillagerOutpost-v5.zip
+config/paxi/datapacks/New Lodestone Recipe 1.0.zip
+config/paxi/datapacks/Supplementaries Compat 1.0.zip
+config/paxi/datapacks/VanillaTweaks_c437456_MC1.21-1.21.8.zip
+config/paxi/datapacks/VanillaTweaks_d397072_UNZIP_ME.zip

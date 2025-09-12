@@ -1,0 +1,16 @@
+config/paxi/resourcepacks/[1.4.1] Enhanced Boss Bars.zip
+config/paxi/resourcepacks/§5§lModded §f§lContainers§8.zip
+config/paxi/resourcepacks/§6Dynamic§9Surroundings §2R14.zip
+config/paxi/resourcepacks/§aChests§8-§aReimagined§0_§8[v1.6.1]§0.zip
+config/paxi/resourcepacks/beautiful_potions_1.20.1_1.1.0.zip
+config/paxi/resourcepacks/Better+Lanterns+v1.2(mc-1.20.5).zip
+config/paxi/resourcepacks/§c1.21.2 Redstone Torch§r.zip
+config/paxi/resourcepacks/[Compressed] Alternative Rain Sounds 1.20.5-1.20.6.zip
+config/paxi/resourcepacks/Create-Energistics-1.1.2-mc1.20.4.zip
+config/paxi/resourcepacks/Create Touch-Ups v1.0.zip
+config/paxi/resourcepacks/crops3d1.20.5.zip
+config/paxi/resourcepacks/§lcolourful containers§8.zip
+config/paxi/resourcepacks/More Cave Sounds.zip
+config/paxi/resourcepacks/Pretty X Smart Pipez.zip
+config/paxi/resourcepacks/VanillaTweaks_r929459_MC1.20.x.zip
+config/paxi/resourcepacks/waystones_1.20.4.zip
