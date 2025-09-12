@@ -1,3 +1,0 @@
-#Add Entity on Looking AI Blacklist. Use the full name(This config only disabled mob enchant when mob spawn. not mean delete complete, eg: minecraft:zomibe.
-LookingAIMobBlacklist = ["minecraft:phantom"]
-
