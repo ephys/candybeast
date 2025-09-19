@@ -1,0 +1,11 @@
+#features {
+	/**
+	 * Allow shulker boxes to be placed in bags. Bags are already blacklisted from shulker boxes with no toggle.
+	 */
+	allow-shulkers: true;
+
+	/**
+	 * Allow bags to act as a quiver and pull arrows.
+	 */
+	use-arrows: true;
+}

@@ -1,0 +1,16 @@
+{
+	// This option can be used to remap missing registry entries to existing ones. This is useful when removing or replacing a mod, and you would like the blocks to be replaced by something other than air.
+	// 
+	// Format is:
+	// <registry name>|<one or more missing registry keys separated by space>|<existing registry key to map to>
+	// 
+	// The following example will replace the Thermal cinnabar ore & AE2 quartz ore from the block registry with stone:
+	// minecraft:block|thermal:cinnabar_ore ae2:quartz_ore|minecraft:stone
+	// 
+	// Note: forge will print the list of missing mappings to the log, which can be used to create your own remap list.
+	// WARNING: Be careful when using this, as it can cause issues if used improperly. Only use this if you know what you are doing, and always make a backup of your world before using it.
+	"registryRemap": [
+		"minecraft:block|ae2:deepslate_quartz_ore|minecraft:deepslate",
+		"minecraft:block|ae2:quartz_ore|minecraft:stone"
+	]
+}

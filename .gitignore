@@ -3,7 +3,6 @@
 !/scripts
 !/config
 !/defaultconfigs
-!/shaderpacks
 !/icon.png
 !/options.txt
 !/mods.txt
@@ -16,3 +15,5 @@ bookmarks.ini
 /icon.png
 /config/paxi/resourcepacks/*.zip
 /config/paxi/datapacks/*.zip
+/config/inventoryprofilesnext/*
+/config/oculus.properties

@@ -1,0 +1,61 @@
+
+#Sound of Rain Configuration
+#20 ticks = 1 second = 1000ms
+["sound behaviour"]
+	#The radius that gets checked for blocks (in blocks), closest blocks to the player are prioritized[default: 10]
+	#Range: 1 ~ 32
+	soundRadius = 10
+	#Interval in ticks for checking blocks within the radius, lower value means more checks per second which can cause lag higher values is the opposite[default: 15]
+	#Range: 1 ~ 200
+	soundInterval = 15
+	#Amount of blocks that will be playing sounds within the radius, if its to loud lowering this value can help[default: 14]
+	#Range: 1 ~ 64
+	maxSoundsPerCycle = 14
+	#Cooldown for sounds that can play at the same position[default: 3500] +/- 500ms
+	#Range: 100 ~ 60000
+	cleanupIntervalMs = 1500
+	#(for debugging) shows which blocks play a sound and provides logs[default: false]
+	debugShowSoundBlock = false
+
+	["sound behaviour"."sound options"]
+		#Enable or disable thunder sounds. Sand is a prototype, so disabled by default
+		EnableThunderSounds = true
+		EnableAmethystRain = true
+		EnableFabricRain = true
+		EnableFoliageRain = true
+		EnableGlassRain = true
+		EnableMetalRain = true
+		EnableSandRain = false
+		EnableWoodRain = true
+
+	["sound behaviour"."material rain sound blocks"]
+		#you can add block id's and tags here. Some blocks are backed by their sound types
+		#Tags for Amethyst like blocks
+		amethystTags = [""]
+		#Block IDs for Amethyst like blocks
+		amethystBlocks = [""]
+		#Tags for Fabric blocks
+		fabricTags = ["#minecraft:wool", "#minecraft:wool_carpet", "#minecraft:beds", "#minecraft:banners"]
+		#Block IDs for Fabric blocks
+		fabricBlocks = [""]
+		#Tags for Foliage blocks
+		foliageTags = ["#minecraft:leaves", "#minecraft:flowers"]
+		#Block IDs for Foliage blocks
+		foliageBlocks = [""]
+		#Tags for Glass blocks
+		glassTags = ["#forge:glass", "#forge:glass_panes"]
+		#Block IDs for Glass blocks
+		glassBlocks = [""]
+		#Tags for Metal blocks
+		metalTags = ["#minecraft:beacon_base_blocks", "#minecraft:anvil"]
+		#Block IDs for Metal blocks
+		metalBlocks = ["minecraft:cauldron", "minecraft:hopper"]
+		#Tags for Sand blocks
+		sandTags = ["#minecraft:sand"]
+		#Block IDs for Sand blocks
+		sandBlocks = [""]
+		#Tags for Wood blocks
+		woodTags = ["#minecraft:logs", "#minecraft:wooden_stairs", "#minecraft:planks", "#minecraft:wooden_slabs", "#minecraft:wooden_fences", "#minecraft:wooden_doors", "#minecraft:wooden_trapdoors", "#minecraft:wooden_pressure_plates", "#minecraft:wooden_buttons"]
+		#Block IDs for Wood blocks
+		woodBlocks = [""]
+
