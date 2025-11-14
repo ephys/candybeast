@@ -12,6 +12,16 @@ bed_never_too_far = false
 saplings_grow_biome_trees = true
 #An entity target selector defining which mobs are not allowed to grief. Uses the same syntax as in commands. Example: @e[type=minecraft:creeper,type=minecraft:enderman]
 disallowed_mob_griefers = "@e[type=minecraft:creeper,type=minecraft:enderman]"
+#Use this to change the duration of potion effects. The format is '<potion_registry_name>|<duration_in_seconds>'. For example, to make potions of swiftness last 5 minutes instead of 3, add 'minecraft:swiftness|300' to the list.
+#For potions with multiple effects, you can specify the duration for each effect by appending the effect registry name, e.g. 'minecraft:turtle_master|minecraft:resistance|45' to set the duration of the resistance effect of the turtle master potion to 45 seconds. (requires restart)
+potion_durations = []
+#Potions that persist after death. This list needs to contain the registry names of the potions, e.g. 'minecraft:swiftness', 'minecraft:long_swiftness', etc... (requires restart)
+persistent_potions = []
+#Configures the stack size of regular potions (requires restart).
+#Range: 0 ~ 64
+potion_stack_size = 1
+#Adds a 'cleanse' potion that cures all negative effects (requires restart).
+enable_cleanse_potion = true
 
 [lodestone]
 	#Adds a lodestone proxy that when used sets your compass to another lodestone.

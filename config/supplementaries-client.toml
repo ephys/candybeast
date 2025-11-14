@@ -157,6 +157,8 @@
 	config_button_y_offset = 0
 	#Enables custom Configured config screen
 	custom_configured_screen = true
+	#I am very boring
+	unfunny = false
 
 #Game tweaks
 [tweaks]

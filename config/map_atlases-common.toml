@@ -37,7 +37,7 @@
 	map_updates_per_tick = 1
 	#Makes map update on different threads, speeding up the process. Disable if it causes issues. Especially on servers. Try turning on for a big performance improvement regarding map atlas update
 	#Allowed Values: OFF, SINGLE_PLAYER_ONLY, ALWAYS_ON
-	multithreaded_update = "SINGLE_PLAYER_ONLY"
+	multithreaded_update = "ALWAYS_ON"
 	#Visually shows map updates
 	debug_map_updates = false
 	#Every how many ticks should markers be updated

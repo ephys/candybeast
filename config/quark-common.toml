@@ -1710,7 +1710,7 @@
 		#Disables mob griefing for only specific entities
 		"Enable Selective Mob Griefing" = true
 		#Force Elytra to only work in specific dimensions
-		"Enable Dimension Locked Elytra" = true
+		"Enable Dimension Locked Elytra" = false
 		#Makes falling blocks not able to be duped via dimension crossing
 		"Disable Falling Block Dupe" = true
 		#Fixes several piston physics exploits, most notably including TNT duping

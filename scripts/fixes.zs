@@ -1,6 +1,8 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.ingredient.IIngredient;
 import mods.jeitweaker.Jei;
+import crafttweaker.api.item.ItemStack;
+import crafttweaker.api.game.Game;
 
 var items_to_remove = [
     // Disable OP botania features
@@ -246,8 +248,27 @@ craftingTable.remove(<item:paraglider:paraglider>);
 <item:minecraft:golden_leggings>.maxDamage = 225;
 <item:minecraft:golden_boots>.maxDamage = 195;
 
+<item:minecraft:potion>.maxStackSize = 16;
+
 // boost time it takes to break netherrack (still very fragile against explosions)
 
 <blockstate:minecraft:netherrack>.setDestroySpeed(1F);
 <blockstate:minecraft:crimson_nylium>.setDestroySpeed(1.1F);
 <blockstate:minecraft:warped_nylium>.setDestroySpeed(1.1F);
+
+for block in game.blocks {
+    for state in block.possibleStates {
+        if (state.lightEmission > 0) {
+            <tag:blocks:candybeast:lamp>.add(block);
+            break;
+        }
+    }
+}
+
+for potion in game.potions {
+    println(potion.registryName);
+
+    for effect in potion.effects {
+        effect.duration = 5;
+    }
+}
