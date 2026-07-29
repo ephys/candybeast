@@ -264,11 +264,3 @@ for block in game.blocks {
         }
     }
 }
-
-for potion in game.potions {
-    println(potion.registryName);
-
-    for effect in potion.effects {
-        effect.duration = 5;
-    }
-}
