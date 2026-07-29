@@ -14,10 +14,10 @@
 #Plains
 [plains]
 	#Decides if Foxes should attack Squirrels.
-	replaceAzaleaTree = true
+	foxesAttackSquirrels = false
 
 #Lush Caves Update
 [lush_caves]
-	#Vanilla Azalea trees will have azalea logs instead of oak logs
+	#Vanilla Azalea trees will have azalea logs instead of oak logs when grown. Note that you will still need to override add_rooted_azalea_tree.json and remove_rooted_azalea_tree.json within data/ecologics/forge/biome_modifier to change the naturally generated trees.
 	replaceAzaleaTree = true
 

@@ -54,9 +54,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -67,15 +64,6 @@
     "goggles.detailed": false,
     "placard": true
   },
-  "jadeaddons.lootr": {
-    "info": true
-  },
-  "pipez": {
-    "pipe": true
-  },
-  "supplementaries": {
-    "hat_stand": true
-  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -84,8 +72,8 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "waystones": {
-    "waystone": true
+  "underlay": {
+    "overlay": true
   },
   "infinitybuttons": {
     "hide_secret_buttons": true,
@@ -106,5 +94,20 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "jadeaddons.lootr": {
+    "info": true
+  },
+  "pipez": {
+    "pipe": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "waystones": {
+    "waystone": true
   }
 }

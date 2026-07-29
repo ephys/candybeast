@@ -2,23 +2,22 @@
 #Sound of Rain Configuration
 #20 ticks = 1 second = 1000ms
 ["sound behaviour"]
-	#The radius that gets checked for blocks (in blocks), closest blocks to the player are prioritized[default: 10]
+	#The radius in blocks that gets checked for blocks.
 	#Range: 1 ~ 32
-	soundRadius = 10
-	#Interval in ticks for checking blocks within the radius, lower value means more checks per second which can cause lag higher values is the opposite[default: 15]
+	soundRadius = 15
+	#Interval in ticks for checking for blocks, starts at the player and goes out in an expanding circle.
 	#Range: 1 ~ 200
-	soundInterval = 15
-	#Amount of blocks that will be playing sounds within the radius, if its to loud lowering this value can help[default: 14]
+	soundInterval = 2
+	#Amount of blocks that will be playing rain sounds per layer.
 	#Range: 1 ~ 64
-	maxSoundsPerCycle = 14
-	#Cooldown for sounds that can play at the same position[default: 3500] +/- 500ms
-	#Range: 100 ~ 60000
-	cleanupIntervalMs = 1500
-	#(for debugging) shows which blocks play a sound and provides logs[default: false]
+	maxSoundsPerCycle = 2
+	#shows which blocks get scanned, play a sound and provides logs for debugging.
 	debugShowSoundBlock = false
+	#Config version - do not modify
+	configVersion = "0.5.0"
 
 	["sound behaviour"."sound options"]
-		#Enable or disable thunder sounds. Sand is a prototype, so disabled by default
+		#Enable or disable sounds. Sand sounds awfull, so its disabled by default
 		EnableThunderSounds = true
 		EnableAmethystRain = true
 		EnableFabricRain = true
@@ -27,35 +26,47 @@
 		EnableMetalRain = true
 		EnableSandRain = false
 		EnableWoodRain = true
+		EnableWaterRain = true
+		EnableLavaRain = true
 
 	["sound behaviour"."material rain sound blocks"]
 		#you can add block id's and tags here. Some blocks are backed by their sound types
-		#Tags for Amethyst like blocks
+		#Tags/Id's for Amethyst like blocks
 		amethystTags = [""]
-		#Block IDs for Amethyst like blocks
 		amethystBlocks = [""]
-		#Tags for Fabric blocks
+		#Tags/Id's for Fabric blocks
 		fabricTags = ["#minecraft:wool", "#minecraft:wool_carpet", "#minecraft:beds", "#minecraft:banners"]
-		#Block IDs for Fabric blocks
 		fabricBlocks = [""]
-		#Tags for Foliage blocks
+		#Tags/Id's for Foliage blocks
 		foliageTags = ["#minecraft:leaves", "#minecraft:flowers"]
-		#Block IDs for Foliage blocks
 		foliageBlocks = [""]
-		#Tags for Glass blocks
+		#Tags/Id's for Glass blocks
 		glassTags = ["#forge:glass", "#forge:glass_panes"]
-		#Block IDs for Glass blocks
 		glassBlocks = [""]
-		#Tags for Metal blocks
+		#Tags/Id's for Metal blocks
 		metalTags = ["#minecraft:beacon_base_blocks", "#minecraft:anvil"]
-		#Block IDs for Metal blocks
 		metalBlocks = ["minecraft:cauldron", "minecraft:hopper"]
-		#Tags for Sand blocks
+		#Tags/Id's for Sand blocks
 		sandTags = ["#minecraft:sand"]
-		#Block IDs for Sand blocks
 		sandBlocks = [""]
-		#Tags for Wood blocks
+		#Tags/Id's for Wood blocks
 		woodTags = ["#minecraft:logs", "#minecraft:wooden_stairs", "#minecraft:planks", "#minecraft:wooden_slabs", "#minecraft:wooden_fences", "#minecraft:wooden_doors", "#minecraft:wooden_trapdoors", "#minecraft:wooden_pressure_plates", "#minecraft:wooden_buttons"]
-		#Block IDs for Wood blocks
 		woodBlocks = [""]
+
+	["sound behaviour"."sound chances"]
+		#Chance for amethyst and lava blocks to chime or sizzle.
+		#Range: 0.0 ~ 1.0
+		amethystChance = 0.1
+		#Range: 0.0 ~ 1.0
+		lavaChance = 0.1
+
+	["sound behaviour"."The blacklist"]
+		#Blacklist entire mods by their namespace (e.g., "modname")
+		blacklistedMods = ["copycats"]
+		#Blacklist entire tags by their ID (e.g., "#minecraft:leaves")
+		blacklistedTags = [""]
+		#Blacklist specific block IDs (e.g., "minecraft:dirt"
+		blacklistedBlocks = [""]
+		#Blacklist blocks by name pattern - blocks containing these strings will be skipped (e.g., "terracotta"
+		blacklistedBlockNamePatterns = ["Copycat"]
 
