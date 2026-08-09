@@ -5,7 +5,7 @@
 	#Blacklisted Item.
 	blacklistItems = ["modid:testitem"]
 	#Blacklisted Mod IDs.
-	blacklistModsIDs = ["modid"]
+	blacklistModsIDs = ["brewinandchewin"]
 	#Whitelisted Item.
 	whitelistItems = ["modid:testitem"]
 	#Whitelisted Item.

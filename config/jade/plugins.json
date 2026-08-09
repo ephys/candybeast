@@ -104,6 +104,11 @@
   "pipez": {
     "pipe": true
   },
+  "delightful": {
+    "crop_progress": true,
+    "pie_icons": true,
+    "mushroom_colony": true
+  },
   "supplementaries": {
     "hat_stand": true
   },

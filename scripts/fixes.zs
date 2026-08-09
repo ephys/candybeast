@@ -293,7 +293,7 @@ var uncooked_ingredients = [
   <item:alexsmobs:kangaroo_meat>,
   <item:alexsmobs:raw_catfish>,
   <item:alexsmobs:flying_fish>,
-  <item:corn_delight:corn>,
+//  <item:corn_delight:corn>,
   <item:ecologics:coconut_slice>,
   <item:ecologics:crab_meat>,
   <item:farmersdelight:cabbage>,
@@ -302,7 +302,24 @@ var uncooked_ingredients = [
   <item:farmersdelight:minced_beef>,
   <item:farmersdelight:bacon>,
   <item:farmersdelight:pie_crust>,
-  <item:minecraft:honey_bottle>
+  <item:minecraft:honey_bottle>,
+  <item:delightful:salmonberries>,
+  <item:delightful:cactus_flesh>,
+  <item:delightful:raw_goat>,
+  <item:delightful:cantaloupe_slice>,
+  <item:alexsdelight:kangaroo_shank>,
+  <item:alexsdelight:loose_moose_rib>,
+  <item:alexsdelight:bison_mince>,
+  <item:alexsdelight:raw_bunfungus_drumstick>,
+  <item:alexsdelight:raw_bison>,
+  <item:alexsdelight:raw_bunfungus>,
+  <item:culturaldelights:avocado>,
+  <item:culturaldelights:cut_avocado>,
+  <item:culturaldelights:cucumber>,
+  <item:culturaldelights:eggplant>,
+  <item:culturaldelights:corn_cob>,
+  <item:culturaldelights:squid>,
+  <item:culturaldelights:glow_squid>,
 ];
 
 for item in uncooked_ingredients {
@@ -331,21 +348,31 @@ var cooked_ingredients = [
   <item:alexsmobs:cooked_lobster_tail>,
   <item:alexsmobs:cooked_moose_ribs>,
   <item:alexsmobs:cooked_kangaroo_meat>,
-  <item:corn_delight:popcorn>,
-  <item:corn_delight:grilled_corn>,
-  <item:corn_delight:boiled_corn>,
+ // <item:corn_delight:popcorn>,
+ // <item:corn_delight:grilled_corn>,
+ // <item:corn_delight:boiled_corn>,
   <item:ecologics:cooked_prickly_pear>,
   <item:farmersdelight:fried_egg>,
   <item:farmersdelight:tomato_sauce>,
   <item:farmersdelight:pumpkin_slice>,
   <item:farmersdelight:beef_patty>,
   <item:farmersdelight:cooked_bacon>,
-  <item:berry_good:sweet_berry_mince>
+  <item:berry_good:sweet_berry_mince>,
+  <item:delightful:cooked_goat>,
+  <item:alexsdelight:kangaroo_shank>,
+  <item:alexsdelight:bison_patty>,
+  <item:alexsdelight:cooked_bison>,
+  <item:alexsdelight:cooked_bunfungus>,
+  <item:alexsdelight:cooked_centipede_leg>,
+  <item:culturaldelights:smoked_eggplant>,
+  <item:culturaldelights:cooked_squid>,
 ];
 
 for item in cooked_ingredients {
   item.setFood(FoodProperties.create(3, 1.25)); 
 }
+
+<item:culturaldelights:elote>.setFood(FoodProperties.create(4, 1.1));
 
 var lvl3 = [
     <item:create:honeyed_apple>
@@ -379,7 +406,7 @@ for meal in meals {
 // snack overrides
 var snacks = [
     <item:create:builders_tea>,
-    <item:corn_delight:creamy_corn_drink>,
+   // <item:corn_delight:creamy_corn_drink>,
     <item:create:honeyed_apple>
 ];
 
