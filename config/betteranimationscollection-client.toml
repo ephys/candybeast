@@ -65,7 +65,7 @@
 	wiggly_villager_nose = true
 	#Makes horses more lively again, just like they used to be in older versions.
 	#Does this by adding back their mouth and knees while staying true to the vanilla model style.
-	familiar_horse = true
+	familiar_horse = false
 
 [oinky_pig]
 	#Mob sounds to play a unique animation for.

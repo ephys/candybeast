@@ -1,0 +1,65 @@
+[
+  {
+    "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:zombie_villager", "minecraft:skeleton", "minecraft:stray", "minecraft:creeper", "minecraft:spider", "thermal:blitz", "rottencreatures:undead_miner"],
+    "dimension": "minecraft:overworld",
+    "minheight": 50,
+    "spawntype": ["natural"],
+    "result": "deny"
+  },
+
+  // zombies are 20% faster than other mobs. Zombies are the tanks
+  {
+    "mob": ["minecraft:zombie", "rottencreatures:undead_miner", "minecraft:husk"],
+    "result": "default",
+    "speedmultiply": 1.2,
+    "continue": true
+  },
+
+  // Skeletons, creepers, are more fragile
+  {
+    "mob": ["minecraft:skeleton", "minecraft:stray", "minecraft:creeper"],
+    "result": "default",
+    "healthset": 10,
+    "continue": true
+  },
+
+  // Cave spiders are super fragile, but they poison you
+  {
+    "mob": ["minecraft:cave_spider"],
+    "result": "default",
+    "healthset": 4,
+    "continue": true
+  },
+
+  // below Y 0, ennemies have 25% more health
+  {
+    "mob": ["minecraft:zombie", "minecraft:husk", "minecraft:zombie_villager", "minecraft:skeleton", "minecraft:stray", "minecraft:creeper", "minecraft:spider", "thermal:blitz", "rottencreatures:undead_miner"],
+    "spawntype": ["natural"],
+    "result": "default",
+    "maxheight": -1,
+    "healthmultiply": 1.5,
+    "continue": true
+  },
+
+  // Below Y 0, skeletons are sometimes strays
+  {
+    "mob": "minecraft:skeleton",
+    "dimension": "minecraft:overworld",
+    "maxheight": -1,
+    "random": 0.20,
+    "spawntype": ["natural", "spawner"],
+    "customevent": "stray_instead",
+    "result": "deny_with_actions"
+  },
+
+  // Below Y 0, zombies are sometimes husks
+  {
+    "mob": "minecraft:zombie",
+    "dimension": "minecraft:overworld",
+    "maxheight": -1,
+    "random": 0.20,
+    "spawntype": ["natural", "spawner"],
+    "customevent": "husk_instead",
+    "result": "deny_with_actions"
+  }
+]

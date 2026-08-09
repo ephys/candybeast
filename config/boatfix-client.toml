@@ -1,0 +1,5 @@
+
+["Boat Fix Settings"]
+	#Enable eating while moving in boats
+	enableBoatFix = true
+

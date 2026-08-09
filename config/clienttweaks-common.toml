@@ -63,7 +63,7 @@
 
 [mining]
 	#This prevents the last durability from being used up.
-	doNotUseLastMending = false
+	doNotUseLastMending = true
 	#Prevents accidental mining of certain fragile blocks like budding amethysts.
 	preventAccidentalMining = false
 
@@ -79,7 +79,7 @@
 	#This prevents torches from being placed from your offhand if you have an empty main hand.
 	noOffhandTorchWithEmptyHand = false
 	#This restricts torches to be placed from the offhand only when you're holding a tool in your main hand.
-	offhandTorchWithToolOnly = false
+	offhandTorchWithToolOnly = true
 
 [building]
 	#This option will make iron fences and glass panes have a bigger hitbox while placing them, making it easier to aim.
@@ -91,7 +91,7 @@
 	#This option will disable log stripping.
 	disableLogStripping = false
 	#This option will disable log stripping unless the player is holding shift.
-	logStrippingRequiresShift = false
+	logStrippingRequiresShift = true
 	#This option will disable paving when holding a block in your offhand.
 	disablePavingWithBlockInOffhand = true
 	#This prevents items from being used from your offhand if you have food in your main hand.

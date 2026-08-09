@@ -1,0 +1,36 @@
+[
+  {
+    "on": "custom",
+    "parameters": {
+      "name": "stray_instead"
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld"
+    },
+    "spawn": {
+      "mob": "minecraft:stray",
+      "mincount": 1,
+      "maxcount": 1,
+      "mindistance": 0,
+      "maxdistance": 2,
+      "attempts": 10
+    }
+  },
+  {
+    "on": "custom",
+    "parameters": {
+      "name": "husk_instead"
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld"
+    },
+    "spawn": {
+      "mob": "minecraft:husk",
+      "mincount": 1,
+      "maxcount": 1,
+      "mindistance": 0,
+      "maxdistance": 2,
+      "attempts": 10
+    }
+  }
+]

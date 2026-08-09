@@ -3,6 +3,8 @@ import crafttweaker.api.ingredient.IIngredient;
 import mods.jeitweaker.Jei;
 import crafttweaker.api.item.ItemStack;
 import crafttweaker.api.game.Game;
+import crafttweaker.api.food.FoodProperties;
+import crafttweaker.api.entity.effect.MobEffectInstance;
 
 var items_to_remove = [
     // Disable OP botania features
@@ -142,10 +144,10 @@ var items_to_remove = [
 
     // Thermal
 
-    <item:thermal:redstone_mushroom_spores>,
-    <item:thermal:gunpowder_mushroom_spores>,
-    <item:thermal:slime_mushroom_spores>,
-    <item:thermal:glowstone_mushroom_spores>,
+    //<item:thermal:redstone_mushroom_spores>,
+    //<item:thermal:gunpowder_mushroom_spores>,
+    //<item:thermal:slime_mushroom_spores>,
+    //<item:thermal:glowstone_mushroom_spores>,
     <item:thermal:device_hive_extractor>,
     <item:thermal:xp_crystal>,
     <item:thermal:rose_gold_plate>,
@@ -157,6 +159,7 @@ var items_to_remove = [
     <item:thermal:copper_plate>,
     <item:thermal:gold_plate>,
     <item:thermal:iron_plate>,
+    <item:thermal:satchel>,
 
     // <item:wstweaks:lava_blade>,
     // <item:wstweaks:blaze_blade>,
@@ -191,6 +194,12 @@ var items_to_remove = [
     <item:quark:stone_lamp>,
     <item:quark:stone_brick_lamp>,
     <item:quark:pipe>,
+
+    // Disable waystones (only worldgen)
+    <item:waystones:waystone>,
+    <item:waystones:sandy_waystone>,
+    <item:waystones:mossy_waystone>,
+    <item:waystones:deepslate_waystone>
 ] as IItemStack[];
 
 for item in items_to_remove {
@@ -203,12 +212,6 @@ for item in items_to_remove {
     stoneCutter.remove(item);
     Jei.hideIngredient(item);
 }
-
-// Disable waystones
-
-craftingTable.remove(<item:waystones:waystone>);
-craftingTable.remove(<item:waystones:sandy_waystone>);
-craftingTable.remove(<item:waystones:mossy_waystone>);
 
 // remove OP things
 
@@ -261,6 +264,165 @@ for block in game.blocks {
         if (state.lightEmission > 0) {
             <tag:blocks:candybeast:lamp>.add(block);
             break;
+        }
+    }
+}
+
+for item in game.items {
+    if (item.food != null) {
+        <tag:items:candybeast:edible>.add(item);
+    }
+}
+
+// Nerf uncooked ingredients. Most of them should make you sick too.
+var uncooked_ingredients = [
+  <item:minecraft:beef>,
+  <item:minecraft:porkchop>,
+  <item:minecraft:mutton>,
+  <item:minecraft:rabbit>,
+  <item:minecraft:cod>,
+  <item:minecraft:salmon>,
+  <item:minecraft:apple>,
+  <item:minecraft:melon_slice>,
+  <item:minecraft:sweet_berries>,
+  <item:minecraft:carrot>,
+  <item:minecraft:chicken>,
+  <item:alexsmobs:banana>, // TODO: add alex's delights?
+  <item:alexsmobs:lobster_tail>,
+  <item:alexsmobs:moose_ribs>,
+  <item:alexsmobs:kangaroo_meat>,
+  <item:alexsmobs:raw_catfish>,
+  <item:alexsmobs:flying_fish>,
+  <item:corn_delight:corn>,
+  <item:ecologics:coconut_slice>,
+  <item:ecologics:crab_meat>,
+  <item:farmersdelight:cabbage>,
+  <item:farmersdelight:cabbage_leaf>, // yes eating the cabbage leaf by leaf gives more food
+  <item:farmersdelight:onion>,
+  <item:farmersdelight:minced_beef>,
+  <item:farmersdelight:bacon>,
+  <item:farmersdelight:pie_crust>,
+  <item:minecraft:honey_bottle>
+];
+
+for item in uncooked_ingredients {
+  item.setFood(FoodProperties.create(1, 1)); 
+}
+
+// Prickly pears have spines - eating them raw hurts
+<item:ecologics:prickly_pear>.setFood(
+  FoodProperties.create(1, 1).addEffect(new MobEffectInstance(<mobeffect:minecraft:instant_damage>, 1, 0), 1.0)
+);
+
+// One step above ingredients, but still not great
+// Cooking is basically free.
+var cooked_ingredients = [
+  <item:minecraft:golden_carrot>,
+  <item:minecraft:baked_potato>,
+  <item:minecraft:cooked_rabbit>,
+  <item:minecraft:cooked_cod>,
+  <item:minecraft:cooked_salmon>,
+  <item:minecraft:bread>,
+  <item:minecraft:cooked_beef>,
+  <item:minecraft:cooked_chicken>,
+  <item:minecraft:cooked_porkchop>,
+  <item:minecraft:cooked_mutton>,
+  <item:alexsmobs:cooked_catfish>,
+  <item:alexsmobs:cooked_lobster_tail>,
+  <item:alexsmobs:cooked_moose_ribs>,
+  <item:alexsmobs:cooked_kangaroo_meat>,
+  <item:corn_delight:popcorn>,
+  <item:corn_delight:grilled_corn>,
+  <item:corn_delight:boiled_corn>,
+  <item:ecologics:cooked_prickly_pear>,
+  <item:farmersdelight:fried_egg>,
+  <item:farmersdelight:tomato_sauce>,
+  <item:farmersdelight:pumpkin_slice>,
+  <item:farmersdelight:beef_patty>,
+  <item:farmersdelight:cooked_bacon>,
+  <item:berry_good:sweet_berry_mince>
+];
+
+for item in cooked_ingredients {
+  item.setFood(FoodProperties.create(3, 1.25)); 
+}
+
+var lvl3 = [
+    <item:create:honeyed_apple>
+];
+
+for item in lvl3 {
+    item.setFood(FoodProperties.create(5, 1.25));
+}
+
+for item in <tag:items:farmersdelight:pies>.elements {
+    <tag:items:farmersdelight:snacks>.add(item);
+}
+
+for item in <tag:items:farmersdelight:sweets>.elements {
+    <tag:items:farmersdelight:snacks>.add(item);
+}
+
+for item in <tag:items:farmersdelight:drinks>.elements {
+    <tag:items:farmersdelight:snacks>.add(item);
+}
+
+// meal overrides
+var meals = [
+    <item:largemeals:roasted_mutton_rack>
+];
+
+for meal in meals {
+    <tag:items:farmersdelight:meals>.add(meal);
+}
+
+// snack overrides
+var snacks = [
+    <item:create:builders_tea>,
+    <item:corn_delight:creamy_corn_drink>,
+    <item:create:honeyed_apple>
+];
+
+for snack in snacks {
+   <tag:items:farmersdelight:snacks>.add(snack);
+}
+
+// Use farmer's delight instead
+craftingTable.remove(<item:minecraft:beetroot_soup>);
+craftingTable.remove(<item:minecraft:mushroom_stew>);
+craftingTable.remove(<item:minecraft:rabbit_stew>);
+craftingTable.removeByName("minecraft:pumpkin_pie");
+
+// Anything that restores at least 5 bars (10 points) of hunger and isn't a snack is a meal.
+// Anything that restores at least 3 bars (6 points) of hunger and isn't a meal is a snack.
+for item in game.items {
+    if (item.food == null || item == <item:minecraft:suspicious_stew>) {
+        // for some reason continue; breaks here, so I didn't use it
+    } else if (item.food.nutrition >= 10 && !<tag:items:farmersdelight:snacks>.contains(item)) {
+        <tag:items:farmersdelight:meals>.add(item);
+    } else if (item.food.nutrition >= 6 && !<tag:items:farmersdelight:meals>.contains(item)) {
+        <tag:items:farmersdelight:snacks>.add(item);
+    }
+}
+
+// Tag anything with potion effects as $positive or $negative (mutually exclusive:
+// an item with any negative effect only gets $negative, even if it also has positive effects)
+for item in game.items {
+    if (item.food != null && item.food.effects.length > 0) {
+        var hasNegative = false;
+        for effectEntry in item.food.effects {
+            var effect = effectEntry.getFirst().getEffect();
+            // Glowing is technically a "neutral" vanilla effect, but we treat it as positive
+            if (!effect.beneficial && effect != <mobeffect:minecraft:glowing>) {
+                hasNegative = true;
+                break;
+            }
+        }
+
+        if (hasNegative) {
+            <tag:items:candybeast:detrimental_food>.add(item);
+        } else {
+            <tag:items:candybeast:beneficial_food>.add(item);
         }
     }
 }
