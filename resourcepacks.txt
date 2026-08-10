@@ -9,5 +9,5 @@ config/paxi/resourcepacks/Create Touch-Ups v1.0.zip
 config/paxi/resourcepacks/crops3d1.20.5.zip
 config/paxi/resourcepacks/More Cave Sounds.zip
 config/paxi/resourcepacks/Pretty X Smart Pipez.zip
-config/paxi/resourcepacks/VanillaTweaks_r929459_MC1.20.x.zip
+config/paxi/resourcepacks/VanillaTweaks_r304492_MC1.20.x.zip
 config/paxi/resourcepacks/waystones_1.20.4.zip

@@ -1,6 +1,9 @@
+config/paxi/datapacks/bat membranes v1.0.9 (MC 1.20-1.20.6).zip
 config/paxi/datapacks/BetterEndCityLoot1.20.zip
 config/paxi/datapacks/BetterFishingLoot1.20.zip
+config/paxi/datapacks/custom nether portals v2.3.10 (MC 1.20-1.20.6).zip
 config/paxi/datapacks/DisableAE2Meteors.zip
+config/paxi/datapacks/double shulker shells v1.3.7 (MC 1.20-1.20.6).zip
 config/paxi/datapacks/ImprovedPillagerOutpost-v5.zip
 config/paxi/datapacks/New Lodestone Recipe 1.0.zip
 config/paxi/datapacks/SkyVillages-FarmersDelightCompat-1.20.1-1.0.3.zip
@@ -9,4 +12,3 @@ config/paxi/datapacks/SkyVillages-WaystonesCompat-1.20.1-1.0.3-fabric.zip
 config/paxi/datapacks/Supplementaries Compat 1.0.zip
 config/paxi/datapacks/Towers_Of_The_Wild_Reworked_v4.2.1_Waystone.zip
 config/paxi/datapacks/VanillaTweaks_c437456_MC1.21-1.21.8.zip
-config/paxi/datapacks/VanillaTweaks_d397072_UNZIP_ME.zip
