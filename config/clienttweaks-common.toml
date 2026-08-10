@@ -91,7 +91,7 @@
 	#This option will disable log stripping.
 	disableLogStripping = false
 	#This option will disable log stripping unless the player is holding shift.
-	logStrippingRequiresShift = true
+	logStrippingRequiresShift = false
 	#This option will disable paving when holding a block in your offhand.
 	disablePavingWithBlockInOffhand = true
 	#This prevents items from being used from your offhand if you have food in your main hand.
