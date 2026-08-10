@@ -17,3 +17,5 @@ bookmarks.ini
 /config/paxi/datapacks/*.zip
 /config/inventoryprofilesnext/*
 /config/oculus.properties
+
+lookupHistory.ini
