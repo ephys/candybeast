@@ -8,14 +8,17 @@
 !/mods.txt
 !/resourcepacks.txt
 !/datapacks.txt
+!.rsync*
+!*.sh
+!use-forge*
 
 *.bak
 
+bookmarks.json
 bookmarks.ini
 /icon.png
-/config/paxi/resourcepacks/*.zip
-/config/paxi/datapacks/*.zip
 /config/inventoryprofilesnext/*
 /config/oculus.properties
+/config/euphoria_patcher/*
 
 lookupHistory.ini
