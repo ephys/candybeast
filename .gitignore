@@ -13,6 +13,9 @@
 !use-forge*
 
 *.bak
+*.bak.*
+*.old
+*.old.*
 
 bookmarks.json
 bookmarks.ini

@@ -266,6 +266,10 @@ for block in game.blocks {
             break;
         }
     }
+
+    if (block.registryName.namespace != "diagonalfences" && block.defaultState.hasProperty("waterlogged")) {
+        <tag:blocks:candybeast:test>.add(block);
+    }
 }
 
 for item in game.items {
@@ -452,4 +456,17 @@ for item in game.items {
             <tag:items:candybeast:beneficial_food>.add(item);
         }
     }
+}
+
+var fanTransparents = [
+  <block:supplementaries:timber_frame>,
+  <block:supplementaries:timber_brace>,
+  <block:supplementaries:timber_cross_brace>,
+  <block:suppsquared:metal_frame>,
+  <block:suppsquared:metal_brace>,
+  <block:suppsquared:metal_cross_brace>,
+];
+
+for fanTransparent in fanTransparents {
+    <tag:blocks:create:fan_transparent>.add(fanTransparent);
 }
