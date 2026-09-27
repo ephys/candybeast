@@ -465,6 +465,7 @@ var fanTransparents = [
   <block:suppsquared:metal_frame>,
   <block:suppsquared:metal_brace>,
   <block:suppsquared:metal_cross_brace>,
+  <block:quark:mud_brick_lattice>,
 ];
 
 for fanTransparent in fanTransparents {
