@@ -210,6 +210,7 @@ registry_remap-1.0.0.jar
 resourcefullib-forge-1.20.1-2.1.29.jar
 Ribbits-1.20.1-Forge-3.0.5.jar
 rottencreatures-forge-1.20.1-1.1.0.jar
+runicrepository-1.0.0.jar
 sawmill-1.20-1.4.11.jar
 scaffoldingdropsnearby-1.20.1-3.4.jar
 screenshot-to-clipboard-1.0.9-forge.jar
@@ -227,7 +228,7 @@ sodiumextras-forge-1.0.7-1.20.1.jar
 soundofrain-0.6.0.jar
 sound-physics-remastered-forge-1.20.1-1.5.1.jar
 spyglass_improvements-forge-1.5.12b+mc1.20+forge.jar
-stable_anvil_cost-2.0.0.jar
+stable_anvil_cost-2.0.0.jar.disabled
 StrawStatues-v8.0.3-1.20.1-Forge.jar
 Structory_1.20.x_v1.3.5.jar
 structureessentials-1.20.1-5.0.jar
@@ -237,7 +238,7 @@ supplementaries-1.20-3.1.43-forge.jar
 suppsquared-1.20-1.1.29.jar
 tablist-health-indicator-1.jar
 TerraBlender-forge-1.20.1-3.0.1.10.jar
-Terralith_1.20.x_v2.5.4.jar.disabled
+Terralith_1.20.x_v2.5.4.jar
 TheFletchingTableMod_1.20.1.jar
 thermal_dynamics-1.20.1-11.0.1.23.jar
 thermal_expansion-1.20.1-11.0.1.29.jar
@@ -249,6 +250,7 @@ toofast-1.20-0.4.3.5.jar
 totw_modded-forge-1.20.1-1.0.5.jar
 trimmable_tools-forge-2.0.5.jar
 trinkets-3.7.2.jar
+tw-decorative-food-1.20.1-2.0.1-forge.jar
 twoplayersonehorse-forge-1.20.1-1.0.3.jar
 uncramped_enchantment-forge-0.1.0+1.20.1.jar
 underground-rivers-1.0.1-forge-1.20.1.jar

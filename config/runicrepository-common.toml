@@ -1,0 +1,46 @@
+#How far (in blocks, square radius) around the table to look for bookshelves, on the X/Z axes.
+#Range: 0 ~ 64
+bookshelfHorizontalRange = 7
+#How far (in blocks) at and above the table's Y level to look for bookshelves.
+#Range: 0 ~ 64
+bookshelfAboveRange = 5
+#How far (in blocks) below the table's Y level to look for bookshelves.
+#Range: 0 ~ 64
+bookshelfBelowRange = 4
+#How often (in ticks) the table rescans nearby bookshelves while a player has it open.
+#Range: 1 ~ 1200
+rescanIntervalTicks = 20
+#How many lapis lazuli are consumed per enchantment level applied.
+#Range: 0 ~ 64
+lapisCostPerLevel = 1
+#Flat extra XP level cost added for each enchantment applied above its vanilla maximum level (only reachable with Quark ancient tomes).
+#Range: 0 ~ 1000
+ceilingBreakCost = 30
+#Prevent applying enchanted books to items in the anvil in favor of using the enchanting table (books can still be combined with each other, and items with each other).
+anvilBlockBookEnchanting = true
+#Disable the anvil's cumulative "prior work" repair penalty.
+anvilNoPriorWorkPenalty = true
+#Multiplier applied to the XP cost of merging enchantments in an anvil (only when anvilMergeStableCost is enabled). 0 makes merging free.
+#Range: 0.0 ~ 1000.0
+anvilMergeCostMultiplier = 0.0
+#Repairing does not damage the anvil.
+anvilRepairNoDamage = true
+#Renaming does not damage the anvil.
+anvilRenameNoDamage = true
+#Maximum XP cost for an anvil operation (Vanilla default is 40).
+#Range: > 0
+anvilMaxCost = 2147483647
+#Flat XP cost for repairing an item in the anvil. Set to -1 to use the vanilla cost.
+#Range: > -1
+anvilRepairXpCost = 0
+#Flat XP cost for renaming an item in the anvil. Set to -1 to use the vanilla cost.
+#Range: > -1
+anvilRenameXpCost = 0
+#Use the enchanting algorithm of the enchanting library for merging enchantments on items in the anvil (from https://github.com/PCamille/mc-stable_anvil_cost).
+anvilMergeStableCost = true
+#How many XP orbs in an XP level. This config makes each XP level worth a flat amount of XP orbs instead of the vanilla increasing amount. Set to -1 to use the vanilla XP level cost. Around 50 would make reaching level 30 take about the same amount of XP as in vanilla, but in a linear way.
+#Range: > -1
+flatXpLevelCost = 50
+#Keep your XP after death.
+keepXpAfterDeath = true
+

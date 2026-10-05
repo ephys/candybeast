@@ -95,6 +95,10 @@
     "crafting_monitor": true,
     "part_name": true
   },
+  "dfood": {
+    "food_block": true,
+    "complex_food_block": true
+  },
   "jadeaddons": {
     "equipment_requirement": ""
   },

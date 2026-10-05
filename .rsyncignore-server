@@ -24,8 +24,9 @@ shaderpacks
 /*.json
 /*.sh
 config/jei/*
-options.txt
+config/mezz_config/client/*
 config/euphoria_patcher/*
+options.txt
 /moonlight-global-datapacks
 /coremods
 /server-resource-packs
